@@ -155,6 +155,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "Digital Marketing": "digitalmarketing.json",
         "Web Development": "web-development.json",
         "RS-CIT": "RS-CIT.json",
+        "web_development.json": "web_development.json",
     };
 
     const jsonFile = subjectFileMap[subject];

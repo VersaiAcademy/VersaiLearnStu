@@ -1,0 +1,982 @@
+[
+  {
+    "question": "HTML ka pura naam kya hai?",
+    "options": [
+      "Hyper Text Markup Language",
+      "High Text Markup Language",
+      "Hyper Tabular Markup Language",
+      "None of these"
+    ],
+    "answer": "Hyper Text Markup Language"
+  },
+  {
+    "question": "CSS ka upyog kyon kiya jata hai?",
+    "options": [
+      "Web page ko style karne ke liye",
+      "Web page ki functionality likhne ke liye",
+      "Database se connect karne ke liye",
+      "Server-side scripting ke liye"
+    ],
+    "answer": "Web page ko style karne ke liye"
+  },
+  {
+    "question": "JavaScript ka upyog kyon kiya jata hai?",
+    "options": [
+      "Web page ko interactive banane ke liye",
+      "Web page ko style karne ke liye",
+      "Web page ka structure banane ke liye",
+      "Database se connect karne ke liye"
+    ],
+    "answer": "Web page ko interactive banane ke liye"
+  },
+  {
+    "question": "HTML mein, kaun sa tag sabse bada heading ke liye istemal hota hai?",
+    "options": [
+      "<h1>",
+      "<h6>",
+      "<head>",
+      "<heading>"
+    ],
+    "answer": "<h1>"
+  },
+  {
+    "question": "CSS mein, text ka rang badalne ke liye kaun si property istemal hoti hai?",
+    "options": [
+      "color",
+      "font-color",
+      "text-color",
+      "background-color"
+    ],
+    "answer": "color"
+  },
+  {
+    "question": "HTML mein link banane ke liye kaun sa tag istemal hota hai?",
+    "options": [
+      "<a>",
+      "<link>",
+      "<li>",
+      "<ul>"
+    ],
+    "answer": "<a>"
+  },
+  {
+    "question": "CSS mein 'font-size' property ka kya kaam hai?",
+    "options": [
+      "Text ka size set karna",
+      "Text ka font badalna",
+      "Text ka rang badalna",
+      "Text ko bold karna"
+    ],
+    "answer": "Text ka size set karna"
+  },
+  {
+    "question": "JavaScript mein variable declare karne ke liye kaun sa keyword istemal hota hai?",
+    "options": [
+      "var",
+      "let",
+      "const",
+      "Sabhi"
+    ],
+    "answer": "Sabhi"
+  },
+  {
+    "question": "HTML mein image dalne ke liye kaun sa tag istemal hota hai?",
+    "options": [
+      "<img>",
+      "<image>",
+      "<src>",
+      "<pic>"
+    ],
+    "answer": "<img>"
+  },
+  {
+    "question": "CSS mein 'background-color' property ka kya kaam hai?",
+    "options": [
+      "Element ka background rang set karna",
+      "Text ka rang set karna",
+      "Border ka rang set karna",
+      "Link ka rang set karna"
+    ],
+    "answer": "Element ka background rang set karna"
+  },
+  {
+    "question": "JavaScript mein 'console.log()' ka kya upyog hai?",
+    "options": [
+      "Browser console mein message print karna",
+      "User ko alert dikhana",
+      "HTML element ko badalna",
+      "Function ko call karna"
+    ],
+    "answer": "Browser console mein message print karna"
+  },
+  {
+    "question": "HTML mein table banane ke liye kaun sa tag istemal hota hai?",
+    "options": [
+      "<table>",
+      "<tr>",
+      "<td>",
+      "Sabhi"
+    ],
+    "answer": "Sabhi"
+  },
+  {
+    "question": "CSS mein 'margin' property ka kya kaam hai?",
+    "options": [
+      "Element ke bahar space add karna",
+      "Element ke andar space add karna",
+      "Element ki height set karna",
+      "Element ki width set karna"
+    ],
+    "answer": "Element ke bahar space add karna"
+  },
+  {
+    "question": "JavaScript mein 'if-else' statement ka kya upyog hai?",
+    "options": [
+      "Conditional logic ke liye",
+      "Looping ke liye",
+      "Function define karne ke liye",
+      "Variable declare karne ke liye"
+    ],
+    "answer": "Conditional logic ke liye"
+  },
+  {
+    "question": "HTML mein form banane ke liye kaun sa tag istemal hota hai?",
+    "options": [
+      "<form>",
+      "<input>",
+      "<button>",
+      "Sabhi"
+    ],
+    "answer": "Sabhi"
+  },
+  {
+    "question": "CSS mein 'padding' property ka kya kaam hai?",
+    "options": [
+      "Element ke andar space add karna",
+      "Element ke bahar space add karna",
+      "Element ki height set karna",
+      "Element ki width set karna"
+    ],
+    "answer": "Element ke andar space add karna"
+  },
+  {
+    "question": "JavaScript mein 'for' loop ka kya upyog hai?",
+    "options": [
+      "Code ko baar-baar chalane ke liye",
+      "Conditional logic ke liye",
+      "Function define karne ke liye",
+      "Variable declare karne ke liye"
+    ],
+    "answer": "Code ko baar-baar chalane ke liye"
+  },
+  {
+    "question": "HTML mein list banane ke liye kaun sa tag istemal hota hai?",
+    "options": [
+      "<ul>",
+      "<ol>",
+      "<li>",
+      "Sabhi"
+    ],
+    "answer": "Sabhi"
+  },
+  {
+    "question": "CSS mein 'border' property ka kya kaam hai?",
+    "options": [
+      "Element ke charo taraf border set karna",
+      "Element ka background rang set karna",
+      "Text ka rang set karna",
+      "Element ki width set karna"
+    ],
+    "answer": "Element ke charo taraf border set karna"
+  },
+  {
+    "question": "JavaScript mein function define karne ke liye kaun sa keyword istemal hota hai?",
+    "options": [
+      "function",
+      "def",
+      "fun",
+      "method"
+    ],
+    "answer": "function"
+  },
+  {
+    "question": "HTML mein comment kaise likhte hain?",
+    "options": [
+      "<!-- comment -->",
+      "// comment",
+      "/* comment */",
+      "# comment"
+    ],
+    "answer": "<!-- comment -->"
+  },
+  {
+    "question": "CSS mein comment kaise likhte hain?",
+    "options": [
+      "/* comment */",
+      "// comment",
+      "<!-- comment -->",
+      "# comment"
+    ],
+    "answer": "/* comment */"
+  },
+  {
+    "question": "JavaScript mein comment kaise likhte hain?",
+    "options": [
+      "// comment",
+      "/* comment */",
+      "Dono A aur B",
+      "<!-- comment -->"
+    ],
+    "answer": "Dono A aur B"
+  },
+  {
+    "question": "HTML mein 'doctype' ka kya upyog hai?",
+    "options": [
+      "Document ka type batane ke liye",
+      "Document ka title set karne ke liye",
+      "Document mein script add karne ke liye",
+      "Document mein style add karne ke liye"
+    ],
+    "answer": "Document ka type batane ke liye"
+  },
+  {
+    "question": "CSS mein 'id' selector ko kaise select karte hain?",
+    "options": [
+      "#id_name",
+      ".class_name",
+      "tag_name",
+      "* "
+    ],
+    "answer": "#id_name"
+  },
+  {
+    "question": "JavaScript mein 'Array' kya hai?",
+    "options": [
+      "Ek special variable jo multiple values hold kar sakta hai",
+      "Ek function",
+      "Ek loop",
+      "Ek condition"
+    ],
+    "answer": "Ek special variable jo multiple values hold kar sakta hai"
+  },
+  {
+    "question": "HTML mein 'head' tag ka kya upyog hai?",
+    "options": [
+      "Metadata, title, scripts, styles ko contain karna",
+      "Page ka main content contain karna",
+      "Page ka footer contain karna",
+      "Page ka header contain karna"
+    ],
+    "answer": "Metadata, title, scripts, styles ko contain karna"
+  },
+  {
+    "question": "CSS mein 'class' selector ko kaise select karte hain?",
+    "options": [
+      ".class_name",
+      "#id_name",
+      "tag_name",
+      "*"
+    ],
+    "answer": ".class_name"
+  },
+  {
+    "question": "JavaScript mein 'DOM' ka pura naam kya hai?",
+    "options": [
+      "Document Object Model",
+      "Data Object Model",
+      "Document Order Model",
+      "Data Order Model"
+    ],
+    "answer": "Document Object Model"
+  },
+  {
+    "question": "HTML mein 'body' tag ka kya upyog hai?",
+    "options": [
+      "Page ka main content contain karna",
+      "Metadata, title, scripts, styles ko contain karna",
+      "Page ka footer contain karna",
+      "Page ka header contain karna"
+    ],
+    "answer": "Page ka main content contain karna"
+  },
+  {
+    "question": "CSS mein 'Flexbox' ka kya upyog hai?",
+    "options": [
+      "Flexible layout banane ke liye",
+      "Grid layout banane ke liye",
+      "Text style karne ke liye",
+      "Animation banane ke liye"
+    ],
+    "answer": "Flexible layout banane ke liye"
+  },
+  {
+    "question": "JavaScript mein 'event' kya hai?",
+    "options": [
+      "User ya browser dwara ki gayi koi bhi kriya",
+      "Ek variable",
+      "Ek function",
+      "Ek object"
+    ],
+    "answer": "User ya browser dwara ki gayi koi bhi kriya"
+  },
+  {
+    "question": "HTML mein 'div' tag ka kya upyog hai?",
+    "options": [
+      "Ek container banane ke liye",
+      "Ek paragraph banane ke liye",
+      "Ek heading banane ke liye",
+      "Ek link banane ke liye"
+    ],
+    "answer": "Ek container banane ke liye"
+  },
+  {
+    "question": "CSS mein 'Grid' ka kya upyog hai?",
+    "options": [
+      "Two-dimensional layout banane ke liye",
+      "One-dimensional layout banane ke liye",
+      "Text style karne ke liye",
+      "Animation banane ke liye"
+    ],
+    "answer": "Two-dimensional layout banane ke liye"
+  },
+  {
+    "question": "JavaScript mein 'JSON' ka pura naam kya hai?",
+    "options": [
+      "JavaScript Object Notation",
+      "JavaScript Online Notation",
+      "Java Standard Object Notation",
+      "Java Scripted Object Notation"
+    ],
+    "answer": "JavaScript Object Notation"
+  },
+  {
+    "question": "HTML mein 'span' tag ka kya upyog hai?",
+    "options": [
+      "Text ke ek chote hisse ko style karne ke liye",
+      "Ek bada container banane ke liye",
+      "Ek paragraph banane ke liye",
+      "Ek heading banane ke liye"
+    ],
+    "answer": "Text ke ek chote hisse ko style karne ke liye"
+  },
+  {
+    "question": "CSS mein 'position' property ka kya kaam hai?",
+    "options": [
+      "Element ki positioning set karna",
+      "Element ki width set karna",
+      "Element ki height set karna",
+      "Element ka rang set karna"
+    ],
+    "answer": "Element ki positioning set karna"
+  },
+  {
+    "question": "JavaScript mein 'API' ka pura naam kya hai?",
+    "options": [
+      "Application Programming Interface",
+      "Application Program Interface",
+      "Applied Programming Interface",
+      "Application Programming Internet"
+    ],
+    "answer": "Application Programming Interface"
+  },
+  {
+    "question": "HTML5 mein kaun sa naya semantic tag hai?",
+    "options": [
+      "<article>",
+      "<section>",
+      "<nav>",
+      "Sabhi"
+    ],
+    "answer": "Sabhi"
+  },
+  {
+    "question": "CSS mein 'media queries' ka kya upyog hai?",
+    "options": [
+      "Responsive design banane ke liye",
+      "Animation banane ke liye",
+      "Text style karne ke liye",
+      "Layout banane ke liye"
+    ],
+    "answer": "Responsive design banane ke liye"
+  },
+  {
+    "question": "JavaScript mein 'AJAX' ka pura naam kya hai?",
+    "options": [
+      "Asynchronous JavaScript and XML",
+      "Advanced JavaScript and XML",
+      "Asynchronous Java and XML",
+      "Advanced Java and XML"
+    ],
+    "answer": "Asynchronous JavaScript and XML"
+  },
+  {
+    "question": "HTML mein 'video' tag ka kya upyog hai?",
+    "options": [
+      "Web page par video embed karne ke liye",
+      "Web page par audio embed karne ke liye",
+      "Web page par image embed karne ke liye",
+      "Web page par text embed karne ke liye"
+    ],
+    "answer": "Web page par video embed karne ke liye"
+  },
+  {
+    "question": "CSS mein 'transition' property ka kya kaam hai?",
+    "options": [
+      "Property changes ko smooth banane ke liye",
+      "Animation banane ke liye",
+      "Layout banane ke liye",
+      "Text style karne ke liye"
+    ],
+    "answer": "Property changes ko smooth banane ke liye"
+  },
+  {
+    "question": "JavaScript mein 'Promise' kya hai?",
+    "options": [
+      "Ek object jo asynchronous operation ke completion ya failure ko represent karta hai",
+      "Ek function",
+      "Ek variable",
+      "Ek loop"
+    ],
+    "answer": "Ek object jo asynchronous operation ke completion ya failure ko represent karta hai"
+  },
+  {
+    "question": "HTML mein 'audio' tag ka kya upyog hai?",
+    "options": [
+      "Web page par audio embed karne ke liye",
+      "Web page par video embed karne ke liye",
+      "Web page par image embed karne ke liye",
+      "Web page par text embed karne ke liye"
+    ],
+    "answer": "Web page par audio embed karne ke liye"
+  },
+  {
+    "question": "CSS mein 'animation' property ka kya kaam hai?",
+    "options": [
+      "Complex animations banane ke liye",
+      "Simple transitions banane ke liye",
+      "Layout banane ke liye",
+      "Text style karne ke liye"
+    ],
+    "answer": "Complex animations banane ke liye"
+  },
+  {
+    "question": "JavaScript mein 'async/await' ka kya upyog hai?",
+    "options": [
+      "Asynchronous code ko synchronous jaise likhne ke liye",
+      "Synchronous code ko asynchronous banane ke liye",
+      "Looping ke liye",
+      "Conditional logic ke liye"
+    ],
+    "answer": "Asynchronous code ko synchronous jaise likhne ke liye"
+  },
+  {
+    "question": "HTML mein 'canvas' tag ka kya upyog hai?",
+    "options": [
+      "JavaScript ke through graphics draw karne ke liye",
+      "Video play karne ke liye",
+      "Audio play karne ke liye",
+      "Form banane ke liye"
+    ],
+    "answer": "JavaScript ke through graphics draw karne ke liye"
+  },
+  {
+    "question": "CSS mein 'Sass' kya hai?",
+    "options": [
+      "Ek CSS preprocessor",
+      "Ek CSS framework",
+      "Ek CSS library",
+      "Ek CSS editor"
+    ],
+    "answer": "Ek CSS preprocessor"
+  },
+  {
+    "question": "JavaScript mein 'ES6' kya hai?",
+    "options": [
+      "JavaScript ka ek version",
+      "Ek JavaScript framework",
+      "Ek JavaScript library",
+      "Ek JavaScript editor"
+    ],
+    "answer": "JavaScript ka ek version"
+  },
+  {
+    "question": "HTML mein 'SVG' ka pura naam kya hai?",
+    "options": [
+      "Scalable Vector Graphics",
+      "Standard Vector Graphics",
+      "Scalable Vectorial Graphics",
+      "Standard Vectorial Graphics"
+    ],
+    "answer": "Scalable Vector Graphics"
+  },
+  {
+    "question": "CSS mein 'Bootstrap' kya hai?",
+    "options": [
+      "Ek CSS framework",
+      "Ek CSS preprocessor",
+      "Ek CSS library",
+      "Ek CSS editor"
+    ],
+    "answer": "Ek CSS framework"
+  },
+  {
+    "question": "JavaScript mein 'React' kya hai?",
+    "options": [
+      "Ek JavaScript library for building user interfaces",
+      "Ek JavaScript framework",
+      "Ek JavaScript preprocessor",
+      "Ek JavaScript editor"
+    ],
+    "answer": "Ek JavaScript library for building user interfaces"
+  },
+  {
+    "question": "HTML mein 'meta' tag ka kya upyog hai?",
+    "options": [
+      "Page ke baare mein metadata provide karna",
+      "Page ka title set karna",
+      "Page mein script add karna",
+      "Page mein style add karna"
+    ],
+    "answer": "Page ke baare mein metadata provide karna"
+  },
+  {
+    "question": "CSS mein 'z-index' property ka kya kaam hai?",
+    "options": [
+      "Element ka stack order set karna",
+      "Element ki width set karna",
+      "Element ki height set karna",
+      "Element ka rang set karna"
+    ],
+    "answer": "Element ka stack order set karna"
+  },
+  {
+    "question": "JavaScript mein 'Angular' kya hai?",
+    "options": [
+      "Ek JavaScript framework for building web applications",
+      "Ek JavaScript library",
+      "Ek JavaScript preprocessor",
+      "Ek JavaScript editor"
+    ],
+    "answer": "Ek JavaScript framework for building web applications"
+  },
+  {
+    "question": "HTML mein 'iframe' tag ka kya upyog hai?",
+    "options": [
+      "Ek web page ke andar doosra web page embed karne ke liye",
+      "Ek image embed karne ke liye",
+      "Ek video embed karne ke liye",
+      "Ek audio embed karne ke liye"
+    ],
+    "answer": "Ek web page ke andar doosra web page embed karne ke liye"
+  },
+  {
+    "question": "CSS mein 'LESS' kya hai?",
+    "options": [
+      "Ek CSS preprocessor",
+      "Ek CSS framework",
+      "Ek CSS library",
+      "Ek CSS editor"
+    ],
+    "answer": "Ek CSS preprocessor"
+  },
+  {
+    "question": "JavaScript mein 'Vue.js' kya hai?",
+    "options": [
+      "Ek progressive JavaScript framework",
+      "Ek JavaScript library",
+      "Ek JavaScript preprocessor",
+      "Ek JavaScript editor"
+    ],
+    "answer": "Ek progressive JavaScript framework"
+  },
+  {
+    "question": "HTML mein 'alt' attribute ka kya upyog hai?",
+    "options": [
+      "Image ke liye alternative text provide karna",
+      "Image ka title set karna",
+      "Image ka source set karna",
+      "Image ki width set karna"
+    ],
+    "answer": "Image ke liye alternative text provide karna"
+  },
+  {
+    "question": "CSS mein 'box-sizing' property ka kya kaam hai?",
+    "options": [
+      "Element ke total width aur height ko kaise calculate kiya jaye, yeh batana",
+      "Element ka box model set karna",
+      "Element ka border set karna",
+      "Element ka padding set karna"
+    ],
+    "answer": "Element ke total width aur height ko kaise calculate kiya jaye, yeh batana"
+  },
+  {
+    "question": "JavaScript mein 'Node.js' kya hai?",
+    "options": [
+      "Ek server-side JavaScript runtime environment",
+      "Ek client-side JavaScript framework",
+      "Ek JavaScript library",
+      "Ek JavaScript editor"
+    ],
+    "answer": "Ek server-side JavaScript runtime environment"
+  },
+  {
+    "question": "HTML mein 'placeholder' attribute ka kya upyog hai?",
+    "options": [
+      "Input field mein short hint provide karna",
+      "Input field ka value set karna",
+      "Input field ko disable karna",
+      "Input field ko required banana"
+    ],
+    "answer": "Input field mein short hint provide karna"
+  },
+  {
+    "question": "CSS mein 'rem' unit kya hai?",
+    "options": [
+      "Root element ke font-size ke relative",
+      "Parent element ke font-size ke relative",
+      "Viewport width ke relative",
+      "Viewport height ke relative"
+    ],
+    "answer": "Root element ke font-size ke relative"
+  },
+  {
+    "question": "JavaScript mein 'npm' ka pura naam kya hai?",
+    "options": [
+      "Node Package Manager",
+      "Node Program Manager",
+      "New Package Manager",
+      "New Program Manager"
+    ],
+    "answer": "Node Package Manager"
+  },
+  {
+    "question": "HTML mein 'required' attribute ka kya upyog hai?",
+    "options": [
+      "Input field ko mandatory banana",
+      "Input field ko optional banana",
+      "Input field ko disable karna",
+      "Input field mein placeholder set karna"
+    ],
+    "answer": "Input field ko mandatory banana"
+  },
+  {
+    "question": "CSS mein 'em' unit kya hai?",
+    "options": [
+      "Parent element ke font-size ke relative",
+      "Root element ke font-size ke relative",
+      "Viewport width ke relative",
+      "Viewport height ke relative"
+    ],
+    "answer": "Parent element ke font-size ke relative"
+  },
+  {
+    "question": "JavaScript mein 'Babel' kya hai?",
+    "options": [
+      "Ek JavaScript compiler",
+      "Ek JavaScript framework",
+      "Ek JavaScript library",
+      "Ek JavaScript editor"
+    ],
+    "answer": "Ek JavaScript compiler"
+  },
+  {
+    "question": "HTML mein 'target=\"_blank\"' ka kya upyog hai?",
+    "options": [
+      "Link ko naye tab mein kholna",
+      "Link ko usi tab mein kholna",
+      "Link ko parent frame mein kholna",
+      "Link ko full body of the window mein kholna"
+    ],
+    "answer": "Link ko naye tab mein kholna"
+  },
+  {
+    "question": "CSS mein 'vh' unit kya hai?",
+    "options": [
+      "Viewport height ke 1% ke barabar",
+      "Viewport width ke 1% ke barabar",
+      "Root element ke font-size ke barabar",
+      "Parent element ke font-size ke barabar"
+    ],
+    "answer": "Viewport height ke 1% ke barabar"
+  },
+  {
+    "question": "JavaScript mein 'webpack' kya hai?",
+    "options": [
+      "Ek module bundler",
+      "Ek JavaScript framework",
+      "Ek JavaScript library",
+      "Ek JavaScript editor"
+    ],
+    "answer": "Ek module bundler"
+  },
+  {
+    "question": "HTML mein 'title' attribute ka kya upyog hai?",
+    "options": [
+      "Element ke baare mein extra information provide karna",
+      "Page ka title set karna",
+      "Image ka title set karna",
+      "Link ka title set karna"
+    ],
+    "answer": "Element ke baare mein extra information provide karna"
+  },
+  {
+    "question": "CSS mein 'vw' unit kya hai?",
+    "options": [
+      "Viewport width ke 1% ke barabar",
+      "Viewport height ke 1% ke barabar",
+      "Root element ke font-size ke barabar",
+      "Parent element ke font-size ke barabar"
+    ],
+    "answer": "Viewport width ke 1% ke barabar"
+  },
+  {
+    "question": "JavaScript mein 'jQuery' kya hai?",
+    "options": [
+      "Ek fast, small, and feature-rich JavaScript library",
+      "Ek JavaScript framework",
+      "Ek JavaScript preprocessor",
+      "Ek JavaScript editor"
+    ],
+    "answer": "Ek fast, small, and feature-rich JavaScript library"
+  },
+  {
+    "question": "HTML mein 'header' tag ka kya upyog hai?",
+    "options": [
+      "Introductory content ya navigational links ke liye ek container",
+      "Page ka footer contain karna",
+      "Page ka main content contain karna",
+      "Page ka title contain karna"
+    ],
+    "answer": "Introductory content ya navigational links ke liye ek container"
+  },
+  {
+    "question": "CSS mein 'pseudo-class' kya hai?",
+    "options": [
+      "Ek keyword jo selector mein add kiya jata hai to specify a special state of the selected element(s)",
+      "Ek keyword jo selector mein add kiya jata hai to style a specific part of the selected element(s)",
+      "Ek CSS framework",
+      "Ek CSS library"
+    ],
+    "answer": "Ek keyword jo selector mein add kiya jata hai to specify a special state of the selected element(s)"
+  },
+  {
+    "question": "JavaScript mein 'this' keyword ka kya upyog hai?",
+    "options": [
+      "Current object ko refer karna",
+      "Parent object ko refer karna",
+      "Global object ko refer karna",
+      "Function ko refer karna"
+    ],
+    "answer": "Current object ko refer karna"
+  },
+  {
+    "question": "HTML mein 'footer' tag ka kya upyog hai?",
+    "options": [
+      "Page ya section ka footer contain karna",
+      "Page ya section ka header contain karna",
+      "Page ka main content contain karna",
+      "Page ka title contain karna"
+    ],
+    "answer": "Page ya section ka footer contain karna"
+  },
+  {
+    "question": "CSS mein 'pseudo-element' kya hai?",
+    "options": [
+      "Ek keyword jo selector mein add kiya jata hai to style a specific part of the selected element(s)",
+      "Ek keyword jo selector mein add kiya jata hai to specify a special state of the selected element(s)",
+      "Ek CSS framework",
+      "Ek CSS library"
+    ],
+    "answer": "Ek keyword jo selector mein add kiya jata hai to style a specific part of the selected element(s)"
+  },
+  {
+    "question": "JavaScript mein 'closure' kya hai?",
+    "options": [
+      "Ek function jo doosre function ke scope ko access kar sakta hai",
+      "Ek function jo return hota hai",
+      "Ek function jo call hota hai",
+      "Ek function jo define hota hai"
+    ],
+    "answer": "Ek function jo doosre function ke scope ko access kar sakta hai"
+  },
+  {
+    "question": "HTML mein 'nav' tag ka kya upyog hai?",
+    "options": [
+      "Navigation links ke liye ek container",
+      "Page ka header contain karna",
+      "Page ka footer contain karna",
+      "Page ka main content contain karna"
+    ],
+    "answer": "Navigation links ke liye ek container"
+  },
+  {
+    "question": "CSS mein 'specificity' kya hai?",
+    "options": [
+      "Ek set of rules jo decide karta hai ki kaun sa style apply hoga agar multiple rules hain",
+      "Ek CSS property",
+      "Ek CSS value",
+      "Ek CSS unit"
+    ],
+    "answer": "Ek set of rules jo decide karta hai ki kaun sa style apply hoga agar multiple rules hain"
+  },
+  {
+    "question": "JavaScript mein 'prototype' kya hai?",
+    "options": [
+      "Ek mechanism jiske through JavaScript objects properties inherit karte hain",
+      "Ek function",
+      "Ek variable",
+      "Ek loop"
+    ],
+    "answer": "Ek mechanism jiske through JavaScript objects properties inherit karte hain"
+  },
+  {
+    "question": "HTML mein 'article' tag ka kya upyog hai?",
+    "options": [
+      "Self-contained content ke liye",
+      "Navigation links ke liye",
+      "Page ka header contain karna",
+      "Page ka footer contain karna"
+    ],
+    "answer": "Self-contained content ke liye"
+  },
+  {
+    "question": "CSS mein 'BEM' ka pura naam kya hai?",
+    "options": [
+      "Block, Element, Modifier",
+      "Block, Entity, Modifier",
+      "Box, Element, Modifier",
+      "Block, Element, Model"
+    ],
+    "answer": "Block, Element, Modifier"
+  },
+  {
+    "question": "JavaScript mein 'hoisting' kya hai?",
+    "options": [
+      "Declarations ko scope ke top par move karna",
+      "Variables ko scope ke bottom par move karna",
+      "Functions ko scope ke bottom par move karna",
+      "Code ko execute karna"
+    ],
+    "answer": "Declarations ko scope ke top par move karna"
+  },
+  {
+    "question": "HTML mein 'section' tag ka kya upyog hai?",
+    "options": [
+      "Document mein ek thematic grouping of content ke liye",
+      "Self-contained content ke liye",
+      "Navigation links ke liye",
+      "Page ka header contain karna"
+    ],
+    "answer": "Document mein ek thematic grouping of content ke liye"
+  },
+  {
+    "question": "CSS mein 'Flexbox' aur 'Grid' mein kya antar hai?",
+    "options": [
+      "Flexbox one-dimensional hai, Grid two-dimensional hai",
+      "Flexbox two-dimensional hai, Grid one-dimensional hai",
+      "Dono one-dimensional hain",
+      "Dono two-dimensional hain"
+    ],
+    "answer": "Flexbox one-dimensional hai, Grid two-dimensional hai"
+  },
+  {
+    "question": "JavaScript mein 'strict mode' ka kya upyog hai?",
+    "options": [
+      "Code ko 'strict' operating context mein execute karna",
+      "Code ko 'loose' operating context mein execute karna",
+      "Code ko debug karna",
+      "Code ko compile karna"
+    ],
+    "answer": "Code ko 'strict' operating context mein execute karna"
+  },
+  {
+    "question": "HTML mein 'aside' tag ka kya upyog hai?",
+    "options": [
+      "Content jo main content se indirectly related hai",
+      "Content jo main content se directly related hai",
+      "Self-contained content ke liye",
+      "Navigation links ke liye"
+    ],
+    "answer": "Content jo main content se indirectly related hai"
+  },
+  {
+    "question": "CSS mein 'viewport' kya hai?",
+    "options": [
+      "Web page ka visible area",
+      "Web page ka total area",
+      "Browser window ka size",
+      "Screen ka size"
+    ],
+    "answer": "Web page ka visible area"
+  },
+  {
+    "question": "JavaScript mein 'callback' function kya hai?",
+    "options": [
+      "Ek function jo doosre function mein as an argument pass kiya jata hai",
+      "Ek function jo return hota hai",
+      "Ek function jo call hota hai",
+      "Ek function jo define hota hai"
+    ],
+    "answer": "Ek function jo doosre function mein as an argument pass kiya jata hai"
+  },
+  {
+    "question": "HTML mein 'figure' aur 'figcaption' tags ka kya upyog hai?",
+    "options": [
+      "Image, illustration, diagram, code snippet, etc. ke liye, aur uska caption dene ke liye",
+      "Table aur uska caption dene ke liye",
+      "List aur uska caption dene ke liye",
+      "Form aur uska caption dene ke liye"
+    ],
+    "answer": "Image, illustration, diagram, code snippet, etc. ke liye, aur uska caption dene ke liye"
+  },
+  {
+    "question": "CSS mein 'critical CSS' kya hai?",
+    "options": [
+      "Wo CSS jo above-the-fold content ko render karne ke liye zaroori hai",
+      "Wo CSS jo below-the-fold content ko render karne ke liye zaroori hai",
+      "Saara CSS",
+      "Koi bhi CSS nahi"
+    ],
+    "answer": "Wo CSS jo above-the-fold content ko render karne ke liye zaroori hai"
+  },
+  {
+    "question": "JavaScript mein 'event bubbling' kya hai?",
+    "options": [
+      "Event ka innermost element se outermost element tak propagate hona",
+      "Event ka outermost element se innermost element tak propagate hona",
+      "Event ka stop ho jana",
+      "Event ka start ho jana"
+    ],
+    "answer": "Event ka innermost element se outermost element tak propagate hona"
+  },
+  {
+    "question": "HTML mein 'data-*' attributes ka kya upyog hai?",
+    "options": [
+      "Custom data store karne ke liye",
+      "Standard data store karne ke liye",
+      "Styling ke liye",
+      "Scripting ke liye"
+    ],
+    "answer": "Custom data store karne ke liye"
+  },
+  {
+    "question": "CSS-in-JS kya hai?",
+    "options": [
+      "Ek technique jismein CSS ko JavaScript mein likha jata hai",
+      "Ek technique jismein JavaScript ko CSS mein likha jata hai",
+      "Ek CSS framework",
+      "Ek JavaScript framework"
+    ],
+    "answer": "Ek technique jismein CSS ko JavaScript mein likha jata hai"
+  },
+  {
+    "question": "JavaScript mein 'event capturing' kya hai?",
+    "options": [
+      "Event ka outermost element se innermost element tak propagate hona",
+      "Event ka innermost element se outermost element tak propagate hona",
+      "Event ka stop ho jana",
+      "Event ka start ho jana"
+    ],
+    "answer": "Event ka outermost element se innermost element tak propagate hona"
+  }
+]
