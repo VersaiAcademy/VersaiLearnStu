@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing Questions | Versai Academy</title>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+            background: white;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            padding: 20px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo-img {
+            height: 50px;
+            width: auto;
+            object-fit: contain;
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #0066ff;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+        }
+
+        .btn:hover {
+            background: #0052cc;
+            transform: translateY(-2px);
+        }
+
+        .btn-sm {
+            padding: 8px 20px;
+            font-size: 0.9rem;
+        }
+
+        .page-header {
+            text-align: center;
+            padding: 40px 0 30px;
+        }
+
+        .page-title {
+            font-size: 2.2rem;
+            margin-bottom: 15px;
+            color: #0066ff;
+        }
+
+        .page-subtitle {
+            font-size: 1.1rem;
+            color: #666;
+            max-width: 700px;
+            margin: 0 auto 30px;
+        }
+
+        .content-container {
+            display: grid;
+            grid-template-columns: 250px 1fr;
+            gap: 30px;
+            padding: 30px 0 60px;
+        }
+
+        .sidebar {
+            border-right: 1px solid #eee;
+            padding-right: 20px;
+        }
+
+        .sidebar-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .sidebar-menu {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sidebar-menu li {
+            margin-bottom: 12px;
+        }
+
+        .sidebar-menu a {
+            color: #555;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+
+        .sidebar-menu a:hover {
+            color: #0066ff;
+        }
+
+        .sidebar-menu a.active {
+            color: #0066ff;
+            font-weight: 500;
+        }
+
+        .main-content {
+            padding: 0 10px;
+        }
+
+        .module {
+            margin-bottom: 40px;
+        }
+
+        .module-title {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .question-card {
+            background: #f9f9f9;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .question {
+            font-weight: 500;
+            margin-bottom: 15px;
+        }
+
+        .options {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        .option {
+            margin-bottom: 8px;
+        }
+
+        .theory-section {
+            background: #f5f8ff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        .theory-title {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            color: #0066ff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            border-top: 1px solid #f0f0f0;
+            color: #999;
+        }
+
+        @media (max-width: 768px) {
+            .content-container {
+                grid-template-columns: 1fr;
+            }
+
+            .sidebar {
+                border-right: none;
+                border-bottom: 1px solid #eee;
+                padding-right: 0;
+                padding-bottom: 20px;
+                margin-bottom: 20px;
+            }
+
+            .page-title {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-container">
+                    <img src="/quiz-app/images/versailogo.png" alt="Versai Academy Logo" class="logo-img">
+                </div>
+                <div class="header-actions">
+                    <a href="/quiz-app/login.html" class="btn btn-sm">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="page-header">
+        <div class="container">
+            <h1 class="page-title">Digital Marketing Questions</h1>
+            <p class="page-subtitle">100+ practice questions with detailed explanations to master digital marketing
+                concepts</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="content-container">
+            <div class="sidebar">
+                <h3 class="sidebar-title">Topics</h3>
+                <ul class="sidebar-menu">
+                    <li><a href="#" class="active">SEO Fundamentals</a></li>
+                    <li><a href="#">Social Media Marketing</a></li>
+                    <li><a href="#">PPC Advertising</a></li>
+                    <li><a href="#">Content Marketing</a></li>
+                    <li><a href="#">Email Marketing</a></li>
+                    <li><a href="#">Analytics</a></li>
+                    <li><a href="#">Digital Strategy</a></li>
+                </ul>
+            </div>
+
+            <div class="main-content">
+                <div class="module">
+                    <h2 class="module-title">SEO Fundamentals (Questions 1-50)</h2>
+
+                    <div class="question-card">
+                        <div class="question">1. What does SEO stand for?</div>
+                        <div class="options">
+                            <div class="option">A) Search Engine Operation</div>
+                            <div class="option">B) Search Engine Optimization</div>
+                            <div class="option">C) Site Enhancement Operation</div>
+                            <div class="option">D) Search Enhancement Option</div>
+                        </div>
+                    </div>
+
+                    <div class="question-card">
+                        <div class="question">2. Which of these is NOT a ranking factor in Google's algorithm?</div>
+                        <div class="options">
+                            <div class="option">A) Page loading speed</div>
+                            <div class="option">B) Mobile-friendliness</div>
+                            <div class="option">C) Number of Facebook likes</div>
+                            <div class="option">D) Quality of backlinks</div>
+                        </div>
+                    </div>
+
+                    <div class="question-card">
+                        <div class="question">3. What is the purpose of meta descriptions?</div>
+                        <div class="options">
+                            <div class="option">A) To directly influence search rankings</div>
+                            <div class="option">B) To provide a summary of the page content in search results</div>
+                            <div class="option">C) To hide keywords from competitors</div>
+                            <div class="option">D) To track user behavior</div>
+                        </div>
+                    </div>
+
+                    <div class="theory-section">
+                        <h3 class="theory-title">SEO Fundamentals Theory</h3>
+                        <p>Search Engine Optimization (SEO) is the practice of increasing the quantity and quality of
+                            traffic to your website through organic search engine results. Key components include:</p>
+                        <ul>
+                            <li><strong>On-Page SEO:</strong> Optimizing content and HTML source code</li>
+                            <li><strong>Off-Page SEO:</strong> Building backlinks and brand signals</li>
+                            <li><strong>Technical SEO:</strong> Improving site architecture and crawling</li>
+                        </ul>
+                        <p>Google's algorithm considers over 200 ranking factors including relevance, authority, user
+                            experience, and content quality.</p>
+                    </div>
+                </div>
+
+                <div style="text-align: center; margin-top: 40px;">
+                    <a href="#" class="btn">Load More Questions</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            © 2023 Versai Academy. All rights reserved.
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const sidebarMenu = document.querySelector('.sidebar-menu');
+            const mainContent = document.querySelector('.main-content');
+            let allQuestions = [];
+
+            // Function to display questions for a given module
+            function displayQuestions(moduleName) {
+                // Clear existing content
+                mainContent.innerHTML = '';
+
+                const filteredQuestions = allQuestions.filter(q => q.module === moduleName);
+
+                if (filteredQuestions.length === 0) {
+                    mainContent.innerHTML = '<p>No questions found for this topic.</p>';
+                    return;
+                }
+
+                const moduleDiv = document.createElement('div');
+                moduleDiv.classList.add('module');
+
+                const title = document.createElement('h2');
+                title.className = 'module-title';
+                title.textContent = `${moduleName} (Questions ${filteredQuestions[0].id}-${filteredQuestions[filteredQuestions.length - 1].id})`;
+                moduleDiv.appendChild(title);
+
+                filteredQuestions.forEach(q => {
+                    const card = document.createElement('div');
+                    card.className = 'question-card';
+
+                    const question = document.createElement('div');
+                    question.className = 'question';
+                    question.textContent = `${q.id}. ${q.question}`;
+
+                    const explanation = document.createElement('div');
+                    explanation.className = 'theory-section';
+                    explanation.innerHTML = `
+                        <div class="theory-title">Answer & Explanation</div>
+                        <p><strong>Answer:</strong> ${q.options[q.correctAnswer]}</p>
+                        <p>${q.explanation}</p>
+                    `;
+
+                    card.appendChild(question);
+                    card.appendChild(explanation);
+                    moduleDiv.appendChild(card);
+                });
+
+                mainContent.appendChild(moduleDiv);
+            }
+
+            // Fetch questions and initialize
+            fetch('digital-marketing.json')
+                .then(res => res.json())
+                .then(data => {
+                    allQuestions = data.questions;
+                    const modules = [...new Set(allQuestions.map(q => q.module))];
+
+                    // Populate sidebar
+                    sidebarMenu.innerHTML = ''; // Clear static links
+                    modules.forEach((module, index) => {
+                        const li = document.createElement('li');
+                        const a = document.createElement('a');
+                        a.href = '#';
+                        a.textContent = module;
+                        a.dataset.module = module;
+                        if (index === 0) {
+                            a.classList.add('active');
+                        }
+                        li.appendChild(a);
+                        sidebarMenu.appendChild(li);
+                    });
+
+                    // Add event listeners to sidebar links
+                    sidebarMenu.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        if (e.target.tagName === 'A') {
+                            // Remove active class from all links
+                            sidebarMenu.querySelectorAll('a').forEach(link => link.classList.remove('active'));
+                            // Add active class to the clicked link
+                            e.target.classList.add('active');
+                            // Display questions for the selected module
+                            displayQuestions(e.target.dataset.module);
+                        }
+                    });
+
+                    // Display the first module's questions by default
+                    if (modules.length > 0) {
+                        displayQuestions(modules[0]);
+                    }
+                })
+                .catch(error => {
+                    console.error("Failed to load questions.json", error);
+                    mainContent.innerHTML = '<p>Error loading questions. Please try again later.</p>';
+                });
+        });
+    </script>
+
+</body>
+
+</html>

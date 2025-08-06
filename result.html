@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProExam - Exam Result</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-firestore-compat.js"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div id="loading-overlay" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255, 255, 255, 0.8); z-index: 9999; display: flex; justify-content: center; align-items: center;">
+        <div style="font-size: 2rem; color: #333;">Loading...</div>
+    </div>
+    <!-- Result Page -->
+    <div id="result-interface">
+        <div class="result-container glass-card">
+            <div class="result-header">
+                <h1 class="result-title">Exam Results</h1>
+                <p class="result-subtitle">Graphic Design Certification</p>
+                <div class="result-status status-pending" id="result-status">Pending Review</div>
+            </div>
+
+            <div class="result-details">
+                <div class="detail-card glass-card">
+                    <div class="detail-label">Student Name</div>
+                    <div class="detail-value" id="result-student-name">John Doe</div>
+                </div>
+                <div class="detail-card glass-card">
+                    <div class="detail-label">Student ID</div>
+                    <div class="detail-value" id="result-student-id">12345</div>
+                </div>
+                <div class="detail-card glass-card">
+                    <div class="detail-label">Attempted</div>
+                    <div class="detail-value" id="result-attempted">0/0</div>
+                </div>
+                <div class="detail-card glass-card">
+                    <div class="detail-label">Correct</div>
+                    <div class="detail-value" id="result-correct">0/0</div>
+                </div>
+                <div class="detail-card glass-card">
+                    <div class="detail-label">Score</div>
+                    <div class="detail-value" id="result-score">0/100</div>
+                </div>
+                <div class="detail-card glass-card">
+                    <div class="detail-label">Percentage</div>
+                    <div class="detail-value" id="result-percentage">0%</div>
+                </div>
+            </div>
+
+            <div class="sidebar-card glass-card">
+                <h3 class="card-title">Result Status</h3>
+                <p id="result-message">Your exam is under review by the administrator. You will be notified when the
+                    results are finalized.</p>
+            </div>
+
+            <div class="result-actions">
+                <button class="nav-btn btn-primary" id="result-close-btn">
+                    <i class="fas fa-home"></i> Return to Home
+                </button>
+                <button class="nav-btn btn-outline" id="recheck-request-btn" style="display: none;">
+                    <i class="fas fa-sync-alt"></i> Request Recheck
+                </button>
+            </div>
+        </div>
+
+        <!-- Recheck View (hidden by default) -->
+        <div id="recheck-container" class="recheck-container glass-card" style="display: none; max-width: 800px; margin: 50px auto; padding: 30px;">
+            <h2 class="recheck-title" style="text-align: center; margin-bottom: 20px;">Exam Recheck Details</h2>
+            <div id="recheck-details" class="recheck-details" style="max-height: 60vh; overflow-y: auto; padding-right: 15px;"></div>
+            <div class="result-actions" style="margin-top: 30px;">
+                <button class="nav-btn btn-success" id="agree-and-get-cert-btn" style="display: none;">
+                    <i class="fas fa-check-circle"></i> Yes, I agree, give me my certificate
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

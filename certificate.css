@@ -1,0 +1,288 @@
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f8f9fa;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .certificate-container {
+            width: 900px;
+            height: 650px;
+            position: relative;
+            background: linear-gradient(135deg, #f9f9f9 0%, #ffffff 100%);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            overflow: hidden;
+        }
+
+        .certificate {
+            border: 15px solid #2c3e50;
+            height: 100%;
+            position: relative;
+            background-color: #fff;
+            padding: 40px;
+            box-sizing: border-box;
+        }
+
+        .certificate::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('https://transparenttextures.com/patterns/cream-paper.png');
+            opacity: 0.1;
+            pointer-events: none;
+        }
+
+        .certificate-border {
+            position: absolute;
+            width: calc(100% - 30px);
+            height: calc(100% - 30px);
+            border: 1px solid #bdc3c7;
+            top: 15px;
+            left: 15px;
+            pointer-events: none;
+        }
+
+        .certificate-header {
+            text-align: center;
+            margin-bottom: 30px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .certificate-header .logo {
+            width: 140px;
+            margin-bottom: 20px;
+        }
+
+        .certificate-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            color: #2c3e50;
+            margin: 0;
+            letter-spacing: 2px;
+            position: relative;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .certificate-title::after {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: 25%;
+            width: 50%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #2c3e50, transparent);
+        }
+
+        .certificate-body {
+            text-align: center;
+            padding: 0 50px;
+        }
+
+        .presented-to {
+            font-size: 18px;
+            color: #7f8c8d;
+            margin-bottom: 5px;
+            font-style: italic;
+        }
+
+        .student-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 52px;
+            color: #2c3e50;
+            margin: 20px 0;
+            font-weight: 600;
+            letter-spacing: 1px;
+            position: relative;
+            display: inline-block;
+            line-height: 1.1;
+        }
+
+        .student-name::after {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: 10%;
+            width: 80%;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, #bdc3c7, transparent);
+        }
+
+        .achievement-text {
+            font-size: 20px;
+            color: #7f8c8d;
+            margin: 30px 0 10px;
+        }
+
+        .exam-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 28px;
+            color: #e74c3c;
+            margin: 10px 0;
+            font-weight: 600;
+        }
+
+        .subject-text {
+            font-size: 18px;
+            color: #7f8c8d;
+            margin: 5px 0;
+        }
+
+        .subject-name {
+            font-size: 24px;
+            color: #2c3e50;
+            margin: 10px 0 30px;
+            font-weight: 500;
+        }
+
+        .result-details {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin: 25px 0;
+        }
+
+        .result-details p {
+            font-size: 18px;
+            color: #2c3e50;
+            font-weight: 500;
+        }
+
+        .result-details span {
+            font-weight: 600;
+            color: #e74c3c;
+        }
+
+        .status {
+            font-size: 32px;
+            font-weight: 700;
+            margin-top: 20px;
+            padding: 5px 30px;
+            display: inline-block;
+            border-radius: 30px;
+        }
+
+        .status.pass {
+            color: #27ae60;
+            background-color: rgba(39, 174, 96, 0.1);
+        }
+
+        .status.fail {
+            color: #e74c3c;
+            background-color: rgba(231, 76, 60, 0.1);
+        }
+
+        .signatures {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+            padding: 0 50px;
+        }
+
+        .signature {
+            text-align: center;
+            width: 200px;
+        }
+
+        .signature-line {
+            border-top: 1px solid #2c3e50;
+            margin: 0 auto;
+            width: 150px;
+            margin-bottom: 5px;
+        }
+
+        .signature-name {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        .signature-title {
+            font-size: 14px;
+            color: #7f8c8d;
+        }
+
+        .certificate-date {
+            text-align: center;
+            margin-top: 20px;
+            color: #7f8c8d;
+            font-size: 16px;
+        }
+
+        .certificate-footer {
+            position: absolute;
+            bottom: 30px;
+            left: 0;
+            right: 0;
+            text-align: center;
+        }
+
+        #download-btn {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: #fff;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(44, 62, 80, 0.2);
+        }
+
+        #download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(44, 62, 80, 0.3);
+        }
+
+        .decorative-corner {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            pointer-events: none;
+        }
+
+        .corner-tl {
+            top: 20px;
+            left: 20px;
+            border-top: 3px solid #e74c3c;
+            border-left: 3px solid #e74c3c;
+        }
+
+        .corner-tr {
+            top: 20px;
+            right: 20px;
+            border-top: 3px solid #e74c3c;
+            border-right: 3px solid #e74c3c;
+        }
+
+        .corner-bl {
+            bottom: 20px;
+            left: 20px;
+            border-bottom: 3px solid #e74c3c;
+            border-left: 3px solid #e74c3c;
+        }
+
+        .corner-br {
+            bottom: 20px;
+            right: 20px;
+            border-bottom: 3px solid #e74c3c;
+            border-right: 3px solid #e74c3c;
+        }
+
+        .official-seal {
+            position: absolute;
+            right: 60px;
+            top: 60px;
+            width: 80px;
+            opacity: 0.8;
+        }

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProExam - Login</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="login-page" class="auth-wrapper">
+    <a href="../quiz-app/signup.html" class="nav-link" id="signup-link">
+      <i class="fas fa-user-plus"></i> Create Account
+    </a>
+
+    <div class="auth-container glass-card">
+      <div class="logo-container">
+        <img src="images/versailogo.png" alt="ProExam Logo">
+      </div>
+
+      <div class="auth-content">
+        <section class="video-section">
+          <video autoplay loop muted playsinline>
+            <source src="images/1.mp4" type="video/mp4">
+          </video>
+        </section>
+
+        <!-- ✅ Form Start -->
+        <section class="form-section">
+          <form class="auth-form" action="login.php" method="POST">
+            <h2 class="auth-title">Welcome Back</h2>
+            <p class="auth-subtitle">Please login to continue to your exam</p>
+
+            <div class="form-group">
+              <label for="login-email" class="form-label">Email</label>
+              <input type="email" class="form-input" name="email" id="login-email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+              <label for="login-password" class="form-label">Password</label>
+              <input type="password" class="form-input" name="password" id="login-password" placeholder="Enter your password" required>
+              <a href="#" class="forgot-password" id="forgot-password">Forgot password?</a>
+            </div>
+
+            <div class="form-group">
+              <label for="login-role" class="form-label">Role</label>
+              <select class="form-input" name="role" id="login-role" required>
+                <option value="student">Student</option>
+                <option value="admin">Admin</option>
+              </select>
+            </div>
+
+            <button class="auth-btn" type="submit">Login</button>
+          </form>
+        </section>
+        <!-- ✅ Form End -->
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.has('error')) {
+      const errorMessage = document.createElement('p');
+      errorMessage.textContent = 'Invalid email or password. Please try again.';
+      errorMessage.style.color = 'red';
+      errorMessage.style.textAlign = 'center';
+      const form = document.querySelector('.auth-form');
+      form.insertBefore(errorMessage, form.firstChild);
+    }
+  </script>
+</body>
+
+</html>
