@@ -24,6 +24,14 @@
       </div>
     </div>
   </div>
+<script>
+document.getElementById("student-logout").addEventListener("click", function () {
+    fetch('logout.php')
+        .then(() => {
+            window.location.href = "signup.html";
+        });
+});
+</script>
 
   <script>
     function selectSubject(subjectName) {

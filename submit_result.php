@@ -10,7 +10,8 @@ if ($data) {
     $correct_answers = $data['correct_answers'];
     $subject = $data['subject'];
 
-    $stmt->bind_param("iiii", $user_id, $score, $total_questions, $correct_answers);
+    $stmt = $conn->prepare("INSERT INTO results (user_id, score, total_questions, correct_answers, subject) VALUES (?, ?, ?, ?, ?)");
+    $stmt->bind_param("iiiis", $user_id, $score, $total_questions, $correct_answers, $subject);
 
     if ($stmt->execute()) {
         echo json_encode(["success" => true]);

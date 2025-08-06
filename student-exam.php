@@ -166,25 +166,39 @@ $id = isset($_SESSION['user_id']) ? $_SESSION['user_id'] : '';
 </body>
 <script>
   document.getElementById("confirm-submit").onclick = () => {
-  alert("Exam Submitted Successfully!");
-  document.getElementById("submit-modal").style.display = "none";
+  saveAnswer(); // Save latest selected answer
 
-  // ✅ Save result to localStorage
-  const score = answers.filter(a => a !== null).length; // You can add more scoring logic
+  const correctAnswers = answers.filter((ans, i) => ans === questions[i].answer).length;
+  const totalQuestions = questions.length;
+
   const resultData = {
-    studentId: "S-" + Math.floor(Math.random() * 10000), // Random ID (or from login)
-    name: "John Doe", // You can dynamically get this if login system exists
-    subject: subject,
-    exam: subject + " Certification",
-    score: score + "/" + questions.length,
-    status: "Completed"
+    user_id: <?php echo json_encode($id); ?>,
+    score: correctAnswers,
+    total_questions: totalQuestions,
+    correct_answers: correctAnswers,
+    subject: subject
   };
 
-  // Store in localStorage as string
-  localStorage.setItem("latestResult", JSON.stringify(resultData));
-
-  // ✅ Redirect to admin dashboard
-  window.location.href = "admin-dashboard.html";
+  fetch('submit_result.php', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(resultData)
+  })
+  .then(response => response.json())
+  .then(res => {
+    if (res.success) {
+      alert("✅ Exam Submitted & Result Saved!");
+      window.location.href = "subjects.html";
+    } else {
+      alert("❌ Error: " + res.error);
+    }
+  })
+  .catch(err => {
+    console.error("Fetch Error:", err);
+    alert("❌ Failed to submit exam.");
+  });
 };
 
 </script>
@@ -314,11 +328,6 @@ $id = isset($_SESSION['user_id']) ? $_SESSION['user_id'] : '';
     document.getElementById("submit-modal").style.display = "none";
   };
 
-  document.getElementById("confirm-submit").onclick = () => {
-    alert("Exam Submitted Successfully!");
-    // Submit logic here (Firebase or backend)
-    document.getElementById("submit-modal").style.display = "none";
-  };
 </script>
 <script>
   // Timer Setup (e.g., 30 minutes)
