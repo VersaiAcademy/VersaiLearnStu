@@ -30,6 +30,7 @@ $result = $conn->query($sql);
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+      <link rel="icon" type="image/png" href="images/favicon.svg">
 </head>
 <body>
     <div class="admin-layout">
@@ -41,7 +42,7 @@ $result = $conn->query($sql);
             <nav class="sidebar-nav">
                 <button class="nav-btn active" data-tab="results"><i class="fas fa-poll"></i><span>Exam Results</span></button>
                 <button class="nav-btn" data-tab="students"><i class="fas fa-user-graduate"></i><span>Students</span></button>
-                <button class="nav-btn" data-tab="settings"><i class="fas fa-cog"></i><span>Settings</span></button>
+                <button class="nav-btn" data-tab="logout"><i class="fas fa-sign-out-alt"></i><a href="login.html" target="_blank" rel="noopener noreferrer"><span>Logout</span></a></button>
             </nav>
         </aside>
 

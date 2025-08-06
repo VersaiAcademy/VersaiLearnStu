@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Choose a Subject</title>
   <link rel="stylesheet" href="subjects.css" />
+    <link rel="icon" type="image/png" href="images/favicon.svg">
 </head>
 <body>
   <div class="container">
@@ -22,6 +23,9 @@
       <div class="subject" onclick="selectSubject('Web Development')">
         <h2>Web Development</h2>
       </div>
+      <div class="subject" onclick="selectSubject('RS-CIT')">
+        <h2>RS-CIT</h2>
+      </div>
     </div>
   </div>
 <script>
@@ -33,58 +37,6 @@ document.getElementById("student-logout").addEventListener("click", function () 
 });
 </script>
 
-  <script>
-    function selectSubject(subjectName) {
-      // Optional: Pass subject name to next page using query string
-      // window.location.href = "student-exam.html?subject=" + encodeURIComponent(subjectName);
-
-      // Simple redirection
-      window.location.href = "student-exam.php";
-    }
-  </script>
-  <script>
-  // Step 1: Get subject from URL
-  const urlParams = new URLSearchParams(window.location.search);
-  const subject = urlParams.get("subject");
-
-  // Step 2: Map subject to JSON file
-  const subjectFileMap = {
-    "Graphic Design": "qgraphic-design.json",
-    "Digital Marketing": "digital-marketing.json",
-    "Web Development": "web-development.json"
-  };
-
-  const jsonFile = subjectFileMap[subject];
-
-  if (!jsonFile) {
-    alert("Invalid subject selected!");
-  } else {
-    // Step 3: Fetch and display questions
-    fetch(jsonFile)
-      .then(response => response.json())
-      .then(data => {
-        // Example: Show question text in console or use it in UI
-        console.log("Questions for", subject, data);
-
-        // TODO: Call function to render questions in your page here
-        displayQuestions(data);
-      })
-      .catch(error => {
-        console.error("Error loading JSON:", error);
-      });
-  }
-
-  // Dummy function (replace with your rendering logic)
-  function displayQuestions(questions) {
-    const container = document.createElement("div");
-    questions.forEach((q, index) => {
-      const qEl = document.createElement("p");
-      qEl.textContent = `${index + 1}. ${q.question}`;
-      container.appendChild(qEl);
-    });
-    document.body.appendChild(container);
-  }
-</script>
 <script>
   function selectSubject(subjectName) {
     const subjectParam = encodeURIComponent(subjectName);
