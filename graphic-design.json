@@ -1,0 +1,932 @@
+[
+  {
+    "question": "Graphic design mein 'kerning' ka kya matlab hai?",
+    "options": [
+      "Do characters ke beech space ko adjust karna",
+      "Ek line mein sabhi characters ke beech space ko adjust karna",
+      "Lines ke beech vertical space ko adjust karna",
+      "Font ka size badalna"
+    ],
+    "answer": "Do characters ke beech space ko adjust karna"
+  },
+  {
+    "question": "RGB color model mein kaun se teen primary colors hote hain?",
+    "options": [
+      "Red, Green, Blue",
+      "Red, Yellow, Blue",
+      "Cyan, Magenta, Yellow",
+      "Red, Green, Black"
+    ],
+    "answer": "Red, Green, Blue"
+  },
+  {
+    "question": "Nimn mein se kaun se graphic design ke mool tatva (basic elements) hain? (Ek se adhik chunein)",
+    "options": [
+      "Line",
+      "Shape",
+      "Texture",
+      "Animation"
+    ],
+    "answer": ["Line", "Shape", "Texture"]
+  },
+  {
+    "question": "Vector graphics aur Raster graphics mein kya mukhya antar hai?",
+    "options": [
+      "Vector graphics mathematical equations par aadharit hote hain aur quality khoye bina scale kiye ja sakte hain, jabki Raster graphics pixels par aadharit hote hain.",
+      "Raster graphics mathematical equations par aadharit hote hain.",
+      "Vector graphics hamesha Raster graphics se behtar hote hain.",
+      "Vector graphics ka upyog sirf web ke liye hota hai."
+    ],
+    "answer": "Vector graphics mathematical equations par aadharit hote hain aur quality khoye bina scale kiye ja sakte hain, jabki Raster graphics pixels par aadharit hote hain."
+  },
+  {
+    "question": "Typography mein 'serif' font ki kya visheshta hai?",
+    "options": [
+      "Characters ke strokes ke ant mein chhote decorative lines hote hain.",
+      "Characters ke strokes ke ant mein koi decorative lines nahi hote hain.",
+      "Yeh ek script font hai.",
+      "Yeh hamesha bold hota hai."
+    ],
+    "answer": "Characters ke strokes ke ant mein chhote decorative lines hote hain."
+  },
+  {
+    "question": "CMYK color model ka upyog aam taur par kahan hota hai?",
+    "options": [
+      "Print design",
+      "Web design",
+      "Video editing",
+      "Digital photography"
+    ],
+    "answer": "Print design"
+  },
+  {
+    "question": "Design mein 'hierarchy' ka kya mahatva hai?",
+    "options": [
+      "Sabse mahatvapurna elements par viewer ka dhyan aakarshit karna",
+      "Sabhi elements ko ek jaisa dikhana",
+      "Design ko arajak (chaotic) banana",
+      "Rangon ka upyog kam karna"
+    ],
+    "answer": "Sabse mahatvapurna elements par viewer ka dhyan aakarshit karna"
+  },
+  {
+    "question": "Adobe Creative Suite ke kaun se software aam taur par graphic designers dwara upyog kiye jaate hain? (Ek se adhik chunein)",
+    "options": [
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Adobe InDesign",
+      "Adobe Audition"
+    ],
+    "answer": ["Adobe Photoshop", "Adobe Illustrator", "Adobe InDesign"]
+  },
+  {
+    "question": "Ek logo design karte samay kin baaton ka dhyan rakhna chahiye? (Ek se adhik chunein)",
+    "options": [
+      "Saralta (Simplicity)",
+      "Yaadgaar (Memorable)",
+      "Bahumukhi (Versatile)",
+      "Jatilta (Complexity)"
+    ],
+    "answer": ["Saralta (Simplicity)", "Yaadgaar (Memorable)", "Bahumukhi (Versatile)"]
+  },
+  {
+    "question": "'White space' ya 'negative space' design mein kya bhumika nibhata hai?",
+    "options": [
+      "Design ko saaf aur padhne mein aasan banata hai",
+      "Yeh space ka bekar istemal hai",
+      "Design ko bhara hua dikhata hai",
+      "Sirf kaale aur safed design mein upyog hota hai"
+    ],
+    "answer": "Design ko saaf aur padhne mein aasan banata hai"
+  },
+  {
+    "question": "Color theory mein 'complementary colors' kya hote hain?",
+    "options": [
+      "Color wheel par ek doosre ke vipreet rang",
+      "Color wheel par ek doosre ke bagal mein rang",
+      "Ek hi rang ke alag-alag shades",
+      "Koi bhi teen rang jo ek saath achhe lagte hain"
+    ],
+    "answer": "Color wheel par ek doosre ke vipreet rang"
+  },
+  {
+    "question": "File format .PNG ki kya visheshta hai?",
+    "options": [
+      "Transparent background support karta hai",
+      "Yeh ek vector format hai",
+      "Yeh hamesha choti file size ka hota hai",
+      "Yeh print ke liye sabse achha hai"
+    ],
+    "answer": "Transparent background support karta hai"
+  },
+  {
+    "question": "Design mein 'alignment' ka kya matlab hai?",
+    "options": [
+      "Elements ko ek line ya margin ke saath kaise rakha gaya hai",
+      "Elements ke beech ka space",
+      "Elements ka size",
+      "Elements ka rang"
+    ],
+    "answer": "Elements ko ek line ya margin ke saath kaise rakha gaya hai"
+  },
+  {
+    "question": "Ek 'mood board' kya hai?",
+    "options": [
+      "Images, colors, aur textures ka ek collection jo ek project ke liye visual direction deta hai",
+      "Ek software tool",
+      "Ek design ka final version",
+      "Client ke liye ek contract"
+    ],
+    "answer": "Images, colors, aur textures ka ek collection jo ek project ke liye visual direction deta hai"
+  },
+  {
+    "question": "Nimn mein se kaun se file formats aam taur par web ke liye upyog kiye jaate hain? (Ek se adhik chunein)",
+    "options": [
+      "JPEG",
+      "PNG",
+      "SVG",
+      "TIFF"
+    ],
+    "answer": ["JPEG", "PNG", "SVG"]
+  },
+  {
+    "question": "'Golden Ratio' ka graphic design mein kya upyog hai?",
+    "options": [
+      "Esthetically pleasing compositions banane ke liye",
+      "File size kam karne ke liye",
+      "Print quality sudharne ke liye",
+      "Website ki speed badhane ke liye"
+    ],
+    "answer": "Esthetically pleasing compositions banane ke liye"
+  },
+  {
+    "question": "Typography mein 'leading' (line-height) kya hai?",
+    "options": [
+      "Text ki lines ke beech ka vertical space",
+      "Words ke beech ka space",
+      "Characters ke beech ka space",
+      "Paragraph ka indentation"
+    ],
+    "answer": "Text ki lines ke beech ka vertical space"
+  },
+  {
+    "question": "Ek 'brand style guide' mein kya shamil hota hai? (Ek se adhik chunein)",
+    "options": [
+      "Logo usage guidelines",
+      "Color palette",
+      "Typography rules",
+      "Company ke employees ki list"
+    ],
+    "answer": ["Logo usage guidelines", "Color palette", "Typography rules"]
+  },
+  {
+    "question": "Adobe Illustrator ka mukhya upyog kya hai?",
+    "options": [
+      "Vector graphics aur illustrations banane ke liye",
+      "Photos edit karne ke liye",
+      "Multi-page documents banane ke liye",
+      "Video edit karne ke liye"
+    ],
+    "answer": "Vector graphics aur illustrations banane ke liye"
+  },
+  {
+    "question": "Design mein 'contrast' kaise banaya ja sakta hai? (Ek se adhik chunein)",
+    "options": [
+      "Rang (Halke vs. Gehre)",
+      "Size (Bade vs. Chhote)",
+      "Shape (Geometric vs. Organic)",
+      "Sabhi elements ko ek jaisa banakar"
+    ],
+    "answer": ["Rang (Halke vs. Gehre)", "Size (Bade vs. Chhote)", "Shape (Geometric vs. Organic)"]
+  },
+  {
+    "question": "Resolution (DPI/PPI) ka kya mahatva hai?",
+    "options": [
+      "Image ki quality aur sharpness nirdharit karta hai",
+      "Image ka file size nirdharit karta hai",
+      "Image ka color mode nirdharit karta hai",
+      "Image ka file format nirdharit karta hai"
+    ],
+    "answer": "Image ki quality aur sharpness nirdharit karta hai"
+  },
+  {
+    "question": "Print ke liye standard resolution kya hai?",
+    "options": [
+      "300 DPI",
+      "72 DPI",
+      "150 DPI",
+      "100 DPI"
+    ],
+    "answer": "300 DPI"
+  },
+  {
+    "question": "Web/screen ke liye standard resolution kya hai?",
+    "options": [
+      "72 PPI",
+      "300 PPI",
+      "150 PPI",
+      "100 PPI"
+    ],
+    "answer": "72 PPI"
+  },
+  {
+    "question": "Adobe InDesign ka mukhya upyog kya hai?",
+    "options": [
+      "Layout aur page design ke liye (jaise magazines, books)",
+      "Vector illustrations banane ke liye",
+      "Photos retouch karne ke liye",
+      "3D models banane ke liye"
+    ],
+    "answer": "Layout aur page design ke liye (jaise magazines, books)"
+  },
+  {
+    "question": "Design mein 'repetition' ka siddhant kya hai?",
+    "options": [
+      "Design ke elements ko poore piece mein dohrana",
+      "Har element ko alag banana",
+      "Sirf ek rang ka upyog karna",
+      "Grid ka upyog na karna"
+    ],
+    "answer": "Design ke elements ko poore piece mein dohrana"
+  },
+  {
+    "question": "Ek 'wireframe' kya hai?",
+    "options": [
+      "Ek website ya app ka basic structural layout",
+      "Ek high-fidelity visual design",
+      "Ek interactive prototype",
+      "Ek brand style guide"
+    ],
+    "answer": "Ek website ya app ka basic structural layout"
+  },
+  {
+    "question": "Color theory mein 'analogous colors' kya hote hain?",
+    "options": [
+      "Color wheel par ek doosre ke bagal mein sthit rang",
+      "Color wheel par ek doosre ke vipreet sthit rang",
+      "Ek hi rang ke alag-alag shades",
+      "Kaale, safed aur grey"
+    ],
+    "answer": "Color wheel par ek doosre ke bagal mein sthit rang"
+  },
+  {
+    "question": "Adobe Photoshop mein 'layers' ka kya upyog hai?",
+    "options": [
+      "Image ke alag-alag hisson ko organize aur edit karne ke liye",
+      "Image ko save karne ke liye",
+      "Image ka size badalne ke liye",
+      "Image par filter lagane ke liye"
+    ],
+    "answer": "Image ke alag-alag hisson ko organize aur edit karne ke liye"
+  },
+  {
+    "question": "Nimn mein se kaun se 'Gestalt principles' hain? (Ek se adhik chunein)",
+    "options": [
+      "Proximity (Sameepata)",
+      "Similarity (Samanata)",
+      "Closure (Samapan)",
+      "Randomness (Yaadrichhikta)"
+    ],
+    "answer": ["Proximity (Sameepata)", "Similarity (Samanata)", "Closure (Samapan)"]
+  },
+  {
+    "question": "Ek 'mockup' kya hai?",
+    "options": [
+      "Ek design ka static, high-fidelity visual representation",
+      "Ek website ka live version",
+      "Ek wireframe ka rough sketch",
+      "Ek coding file"
+    ],
+    "answer": "Ek design ka static, high-fidelity visual representation"
+  },
+  {
+    "question": "Typography mein 'tracking' (letter-spacing) kya hai?",
+    "options": [
+      "Ek shabd ya text block mein characters ke beech overall space",
+      "Do specific characters ke beech space",
+      "Lines ke beech vertical space",
+      "Shabdon ke beech space"
+    ],
+    "answer": "Ek shabd ya text block mein characters ke beech overall space"
+  },
+  {
+    "question": "Design mein 'balance' kaise prapt kiya ja sakta hai? (Ek se adhik chunein)",
+    "options": [
+      "Symmetrical balance",
+      "Asymmetrical balance",
+      "Radial balance",
+      "No balance"
+    ],
+    "answer": ["Symmetrical balance", "Asymmetrical balance", "Radial balance"]
+  },
+  {
+    "question": "File format .SVG ka kya fayda hai?",
+    "options": [
+      "Yeh ek vector format hai aur anant tak scale kiya ja sakta hai",
+      "Yeh photo-realistic images ke liye sabse achha hai",
+      "Yeh hamesha sabse chhota file size deta hai",
+      "Yeh print ke liye banaya gaya hai"
+    ],
+    "answer": "Yeh ek vector format hai aur anant tak scale kiya ja sakta hai"
+  },
+  {
+    "question": "User Interface (UI) design ka mukhya uddeshya kya hai?",
+    "options": [
+      "Ek product ka visual look aur feel design karna",
+      "Ek product ka overall user experience design karna",
+      "Product ke liye code likhna",
+      "Product ki marketing karna"
+    ],
+    "answer": "Ek product ka visual look aur feel design karna"
+  },
+  {
+    "question": "User Experience (UX) design ka mukhya uddeshya kya hai?",
+    "options": [
+      "Ek product ko upyog mein aasan, kushal aur ananddayak banana",
+      "Sirf product ka sundar dikhna sunishchit karna",
+      "Product ke features ki list banana",
+      "Product ka database design karna"
+    ],
+    "answer": "Ek product ko upyog mein aasan, kushal aur ananddayak banana"
+  },
+  {
+    "question": "Ek 'grid system' ka design mein kya upyog hai?",
+    "options": [
+      "Content ko organize aur structure karne ke liye",
+      "Rang chunne ke liye",
+      "Font select karne ke liye",
+      "Images edit karne ke liye"
+    ],
+    "answer": "Content ko organize aur structure karne ke liye"
+  },
+  {
+    "question": "Color psychology kya hai?",
+    "options": [
+      "Rangon ka manav bhavnaon aur vyavahar par prabhav ka adhyayan",
+      "Rangon ko mix karne ka vigyan",
+      "Print mein rangon ka upyog",
+      "Digital screens par rangon ka pradarshan"
+    ],
+    "answer": "Rangon ka manav bhavnaon aur vyavahar par prabhav ka adhyayan"
+  },
+  {
+    "question": "Nimn mein se kaun se 'warm colors' hain? (Ek se adhik chunein)",
+    "options": [
+      "Red",
+      "Orange",
+      "Yellow",
+      "Blue"
+    ],
+    "answer": ["Red", "Orange", "Yellow"]
+  },
+  {
+    "question": "Nimn mein se kaun se 'cool colors' hain? (Ek se adhik chunein)",
+    "options": [
+      "Blue",
+      "Green",
+      "Purple",
+      "Red"
+    ],
+    "answer": ["Blue", "Green", "Purple"]
+  },
+  {
+    "question": "Ek 'icon' aur 'logo' mein kya antar hai?",
+    "options": [
+      "Logo ek brand ka pratinidhitv karta hai, jabki icon ek action ya object ka pratinidhitv karta hai",
+      "Icon hamesha logo se bada hota hai",
+      "Logo mein hamesha text hota hai, icon mein nahi",
+      "Koi antar nahi hai"
+    ],
+    "answer": "Logo ek brand ka pratinidhitv karta hai, jabki icon ek action ya object ka pratinidhitv karta hai"
+  },
+  {
+    "question": "Design mein 'rhythm' ka kya arth hai?",
+    "options": [
+      "Elements ki punravritti (repetition) se banaya gaya ek visual movement",
+      "Sabhi elements ko randomly place karna",
+      "Sirf ek element ka upyog karna",
+      "Design ko static banana"
+    ],
+    "answer": "Elements ki punravritti (repetition) se banaya gaya ek visual movement"
+  },
+  {
+    "question": "File format .GIF ka mukhya upyog kya hai?",
+    "options": [
+      "Simple animations aur limited colors wali images ke liye",
+      "High-quality photos ke liye",
+      "Print documents ke liye",
+      "Vector logos ke liye"
+    ],
+    "answer": "Simple animations aur limited colors wali images ke liye"
+  },
+  {
+    "question": "Ek 'infographic' kya hai?",
+    "options": [
+      "Jankari, data ya gyan ka ek visual representation",
+      "Ek company ka logo",
+      "Ek website ka layout",
+      "Ek photo album"
+    ],
+    "answer": "Jankari, data ya gyan ka ek visual representation"
+  },
+  {
+    "question": "Design mein 'proportion' ka kya matlab hai?",
+    "options": [
+      "Elements ke size aur scale ka ek doosre se sambandh",
+      "Elements ka rang",
+      "Elements ki sthiti",
+      "Elements ki sankhya"
+    ],
+    "answer": "Elements ke size aur scale ka ek doosre se sambandh"
+  },
+  {
+    "question": "Adobe Photoshop mein 'path' tool (Pen tool) ka kya upyog hai?",
+    "options": [
+      "Precise selections aur custom shapes banane ke liye",
+      "Brush strokes banane ke liye",
+      "Text likhne ke liye",
+      "Image ko crop karne ke liye"
+    ],
+    "answer": "Precise selections aur custom shapes banane ke liye"
+  },
+  {
+    "question": "Ek 'prototype' kya hai?",
+    "options": [
+      "Ek design ka interactive model jise test kiya ja sakta hai",
+      "Ek static image",
+      "Ek wireframe",
+      "Ek mood board"
+    ],
+    "answer": "Ek design ka interactive model jise test kiya ja sakta hai"
+  },
+  {
+    "question": "Design mein 'unity' kaise prapt ki jaati hai?",
+    "options": [
+      "Jab design ke sabhi tatva ek saath milkar ek samagra (cohesive) anubhav banate hain",
+      "Jab har tatva alag dikhta hai",
+      "Jab bahut saare rangon ka upyog hota hai",
+      "Jab koi grid system nahi hota hai"
+    ],
+    "answer": "Jab design ke sabhi tatva ek saath milkar ek samagra (cohesive) anubhav banate hain"
+  },
+  {
+    "question": "Sans-serif font ki kya visheshta hai?",
+    "options": [
+      "Characters ke strokes ke ant mein decorative lines (serifs) nahi hote hain",
+      "Characters ke strokes ke ant mein decorative lines hote hain",
+      "Yeh hamesha handwritten style mein hota hai",
+      "Yeh sirf headings ke liye upyog hota hai"
+    ],
+    "answer": "Characters ke strokes ke ant mein decorative lines (serifs) nahi hote hain"
+  },
+  {
+    "question": "Ek 'stock photo' kya hai?",
+    "options": [
+      "Ek professional photo jise creative projects ke liye license kiya ja sakta hai",
+      "Ek personal photo",
+      "Ek kam-resolution wali photo",
+      "Ek muft photo"
+    ],
+    "answer": "Ek professional photo jise creative projects ke liye license kiya ja sakta hai"
+  },
+  {
+    "question": "Design mein 'focal point' kya hai?",
+    "options": [
+      "Design ka woh hissa jo sabse pehle viewer ka dhyan khinchta hai",
+      "Design ka sabse chhota hissa",
+      "Design ka background",
+      "Design ka border"
+    ],
+    "answer": "Design ka woh hissa jo sabse pehle viewer ka dhyan khinchta hai"
+  },
+  {
+    "question": "Hexadecimal (Hex) color code kya hai?",
+    "options": [
+      "Web design mein rangon ko represent karne ka ek 6-digit code",
+      "Print design mein rangon ko represent karne ka ek code",
+      "Ek prakaar ka font",
+      "Ek image file format"
+    ],
+    "answer": "Web design mein rangon ko represent karne ka ek 6-digit code"
+  },
+  {
+    "question": "Design mein 'texture' ka upyog kaise kiya ja sakta hai? (Ek se adhik chunein)",
+    "options": [
+      "Visual interest add karne ke liye",
+      "Ek specific mood ya feeling evoke karne ke liye",
+      "Depth aur dimension ka aabhas dene ke liye",
+      "Text ko padhne mein mushkil banane ke liye"
+    ],
+    "answer": ["Visual interest add karne ke liye", "Ek specific mood ya feeling evoke karne ke liye", "Depth aur dimension ka aabhas dene ke liye"]
+  },
+  {
+    "question": "Ek 'gradient' ya 'color blend' kya hai?",
+    "options": [
+      "Ek rang ka doosre rang mein kramik (gradual) transition",
+      "Ek solid rang",
+      "Ek pattern",
+      "Ek texture"
+    ],
+    "answer": "Ek rang ka doosre rang mein kramik (gradual) transition"
+  },
+  {
+    "question": "Adobe Photoshop mein 'blending modes' ka kya kaam hai?",
+    "options": [
+      "Yeh nirdharit karte hain ki do layers ek doosre ke saath kaise interact karte hain",
+      "Yeh layers ko merge karte hain",
+      "Yeh layers ko delete karte hain",
+      "Yeh naye layers banate hain"
+    ],
+    "answer": "Yeh nirdharit karte hain ki do layers ek doosre ke saath kaise interact karte hain"
+  },
+  {
+    "question": "Ek 'monochromatic' color scheme kya hai?",
+    "options": [
+      "Ek hi rang ke alag-alag tints, tones, aur shades ka upyog",
+      "Bahut saare alag-alag rangon ka upyog",
+      "Sirf kaale aur safed rang ka upyog",
+      "Complementary rangon ka upyog"
+    ],
+    "answer": "Ek hi rang ke alag-alag tints, tones, aur shades ka upyog"
+  },
+  {
+    "question": "File format .EPS ka mukhya upyog kya hai?",
+    "options": [
+      "High-quality printing aur scaling ke liye vector graphics store karna",
+      "Web animations ke liye",
+      "Digital photos ke liye",
+      "Multi-page documents ke liye"
+    ],
+    "answer": "High-quality printing aur scaling ke liye vector graphics store karna"
+  },
+  {
+    "question": "Design mein 'pattern' ka kya arth hai?",
+    "options": [
+      "Elements ya motifs ki ek niyamit (regular) punravritti",
+      "Elements ka ek arajak (chaotic) arrangement",
+      "Ek single, bada element",
+      "Khali jagah"
+    ],
+    "answer": "Elements ya motifs ki ek niyamit (regular) punravritti"
+  },
+  {
+    "question": "Ek 'brief' (design brief) kya hai?",
+    "options": [
+      "Ek document jo design project ke goals, scope, aur requirements ko outline karta hai",
+      "Ek invoice",
+      "Ek contract",
+      "Ek final design presentation"
+    ],
+    "answer": "Ek document jo design project ke goals, scope, aur requirements ko outline karta hai"
+  },
+  {
+    "question": "Flat design kya hai?",
+    "options": [
+      "Ek minimalist design style jo shadows, gradients jaise 3D effects se bachta hai",
+      "Ek design style jo bahut saare 3D effects ka upyog karta hai",
+      "Ek design style jo sirf kaale aur safed rang ka upyog karta hai",
+      "Ek print design technique"
+    ],
+    "answer": "Ek minimalist design style jo shadows, gradients jaise 3D effects se bachta hai"
+  },
+  {
+    "question": "Design mein 'accessibility' ka kya matlab hai?",
+    "options": [
+      "Design ko is tarah banana ki divyang (disabled) log bhi use aasani se upyog kar sakein",
+      "Design ko sirf ek specific audience ke liye banana",
+      "Design ko bahut mehenga banana",
+      "Design ko print karna aasan banana"
+    ],
+    "answer": "Design ko is tarah banana ki divyang (disabled) log bhi use aasani se upyog kar sakein"
+  },
+  {
+    "question": "Ek 'watermark' kya hai?",
+    "options": [
+      "Ek halka (faint) logo ya text jo image par copyright protect karne ke liye lagaya jaata hai",
+      "Ek image ka border",
+      "Ek image ka caption",
+      "Ek image filter"
+    ],
+    "answer": "Ek halka (faint) logo ya text jo image par copyright protect karne ke liye lagaya jaata hai"
+  },
+  {
+    "question": "Material Design kya hai?",
+    "options": [
+      "Google dwara viksit ek design language",
+      "Apple dwara viksit ek design language",
+      "Microsoft dwara viksit ek design language",
+      "Ek prakaar ka print material"
+    ],
+    "answer": "Google dwara viksit ek design language"
+  },
+  {
+    "question": "Adobe Photoshop mein 'masking' ka kya upyog hai?",
+    "options": [
+      "Ek layer ke hisson ko non-destructively hide ya reveal karne ke liye",
+      "Ek layer ke hisson ko permanently delete karne ke liye",
+      "Ek naya layer banane ke liye",
+      "Do layers ko merge karne ke liye"
+    ],
+    "answer": "Ek layer ke hisson ko non-destructively hide ya reveal karne ke liye"
+  },
+  {
+    "question": "Ek 'thumbnail sketch' kya hai?",
+    "options": [
+      "Ek idea ka chhota, rough drawing",
+      "Ek final, detailed illustration",
+      "Ek digital painting",
+      "Ek client presentation"
+    ],
+    "answer": "Ek idea ka chhota, rough drawing"
+  },
+  {
+    "question": "Design mein 'emphasis' ka kya arth hai?",
+    "options": [
+      "Ek element ko baaki sabse alag dikhakar us par dhyan kendrit karna",
+      "Sabhi elements ko ek jaisa mahatva dena",
+      "Design ko chhota banana",
+      "Design mein kam rangon ka upyog karna"
+    ],
+    "answer": "Ek element ko baaki sabse alag dikhakar us par dhyan kendrit karna"
+  },
+  {
+    "question": "File format .TIFF ka upyog aam taur par kahan hota hai?",
+    "options": [
+      "High-quality print graphics aur professional photography mein",
+      "Web banners mein",
+      "Social media posts mein",
+      "Email attachments mein"
+    ],
+    "answer": "High-quality print graphics aur professional photography mein"
+  },
+  {
+    "question": "Ek 'palette' kya hai?",
+    "options": [
+      "Ek design project mein upyog kiye jaane wale rangon ka ek set",
+      "Ek prakaar ka brush",
+      "Ek software plugin",
+      "Ek font family"
+    ],
+    "answer": "Ek design project mein upyog kiye jaane wale rangon ka ek set"
+  },
+  {
+    "question": "Design mein 'movement' kaise banaya jaata hai?",
+    "options": [
+      "Lines, shapes, aur colors ka upyog karke viewer ki aankh ko design ke madhyam se guide karna",
+      "Sabhi elements ko static rakhkar",
+      "Ek grid ka sakhti se palan karke",
+      "Sirf ek rang ka upyog karke"
+    ],
+    "answer": "Lines, shapes, aur colors ka upyog karke viewer ki aankh ko design ke madhyam se guide karna"
+  },
+  {
+    "question": "Ek 'bleed' print design mein kya hota hai?",
+    "options": [
+      "Design ka woh hissa jo page ke final trim size se bahar tak extend hota hai",
+      "Ek printing error",
+      "Ek prakaar ki ink",
+      "Ek prakaar ka paper"
+    ],
+    "answer": "Design ka woh hissa jo page ke final trim size se bahar tak extend hota hai"
+  },
+  {
+    "question": "Responsive design kya hai?",
+    "options": [
+      "Ek aisi web design approach jo alag-alag screen sizes par behtar viewing experience deti hai",
+      "Ek aisi web design jo sirf desktop par achhi dikhti hai",
+      "Ek aisi web design jo bahut tezi se load hoti hai",
+      "Ek aisi web design jo animations ka bahut upyog karti hai"
+    ],
+    "answer": "Ek aisi web design approach jo alag-alag screen sizes par behtar viewing experience deti hai"
+  },
+  {
+    "question": "Ek 'font family' ya 'typeface' kya hai?",
+    "options": [
+      "Ek common design wale fonts ka ek set (jaise Regular, Bold, Italic)",
+      "Ek single font",
+      "Ek font ka size",
+      "Ek font ka rang"
+    ],
+    "answer": "Ek common design wale fonts ka ek set (jaise Regular, Bold, Italic)"
+  },
+  {
+    "question": "Design mein 'opacity' kya control karta hai?",
+    "options": [
+      "Ek element ki transparency (pardarshita)",
+      "Ek element ka size",
+      "Ek element ka rotation",
+      "Ek element ki position"
+    ],
+    "answer": "Ek element ki transparency (pardarshita)"
+  },
+  {
+    "question": "Ek 'style tile' kya hai?",
+    "options": [
+      "Ek design document jo ek website ke fonts, colors aur interface elements ko ek saath dikhata hai",
+      "Ek floor tile ka design",
+      "Ek fashion design element",
+      "Ek 3D model"
+    ],
+    "answer": "Ek design document jo ek website ke fonts, colors aur interface elements ko ek saath dikhata hai"
+  },
+  {
+    "question": "Design mein 'visual weight' kya hai?",
+    "options": [
+      "Ek element ki viewer ka dhyan aakarshit karne ki kshamata",
+      "Ek element ka vastavik vajan",
+      "Ek element ka file size",
+      "Ek element ka rang code"
+    ],
+    "answer": "Ek element ki viewer ka dhyan aakarshit karne ki kshamata"
+  },
+  {
+    "question": "Adobe Illustrator mein 'artboard' kya hai?",
+    "options": [
+      "Woh area jahan aap apna artwork banate hain, ek canvas ki tarah",
+      "Ek tool palette",
+      "Ek layer panel",
+      "Ek color swatch"
+    ],
+    "answer": "Woh area jahan aap apna artwork banate hain, ek canvas ki tarah"
+  },
+  {
+    "question": "Ek 'call to action' (CTA) design mein kya hota hai?",
+    "options": [
+      "Ek button ya link jo user ko ek specific action lene ke liye prerit karta hai",
+      "Ek company ka slogan",
+      "Ek website ka navigation menu",
+      "Ek footer"
+    ],
+    "answer": "Ek button ya link jo user ko ek specific action lene ke liye prerit karta hai"
+  },
+  {
+    "question": "Design mein 'saturation' ka kya matlab hai?",
+    "options": [
+      "Ek rang ki intensity ya shuddhata (purity)",
+      "Ek rang ki halkapan ya gehraapan (lightness or darkness)",
+      "Rang ka naam (jaise laal, neela)",
+      "Do rangon ka mishran"
+    ],
+    "answer": "Ek rang ki intensity ya shuddhata (purity)"
+  },
+  {
+    "question": "Ek 'wireflow' kya hai?",
+    "options": [
+      "Wireframes ka ek sequence jo ek user task ko complete karne ke steps dikhata hai",
+      "Ek single wireframe",
+      "Ek high-fidelity mockup",
+      "Ek coding diagram"
+    ],
+    "answer": "Wireframes ka ek sequence jo ek user task ko complete karne ke steps dikhata hai"
+  },
+  {
+    "question": "Design mein 'affordance' ka kya concept hai?",
+    "options": [
+      "Ek object ke gun jo yeh batate hain ki use kaise upyog kiya jaana hai",
+      "Ek design ko kitna afford kiya ja sakta hai",
+      "Ek design ka visual appeal",
+      "Ek design ki complexity"
+    ],
+    "answer": "Ek object ke gun jo yeh batate hain ki use kaise upyog kiya jaana hai"
+  },
+  {
+    "question": "Ek 'persona' UX design mein kya hai?",
+    "options": [
+      "Ek kalpanik character jo ek target user group ka pratinidhitv karta hai",
+      "Ek real user",
+      "Ek project stakeholder",
+      "Ek developer"
+    ],
+    "answer": "Ek kalpanik character jo ek target user group ka pratinidhitv karta hai"
+  },
+  {
+    "question": "Design mein 'gamification' kya hai?",
+    "options": [
+      "User engagement badhane ke liye non-game contexts mein game-like elements ka upyog",
+      "Ek video game design karna",
+      "Design ko ek khel ki tarah banana",
+      "Users ko khelne ke liye protsahit karna"
+    ],
+    "answer": "User engagement badhane ke liye non-game contexts mein game-like elements ka upyog"
+  },
+  {
+    "question": "A/B testing kya hai?",
+    "options": [
+      "Ek design ke do versions ki tulna karke yeh dekhna ki kaun sa behtar perform karta hai",
+      "Ek design ko A aur B grades dena",
+      "Do alag-alag designs banana",
+      "Ek design ko test na karna"
+    ],
+    "answer": "Ek design ke do versions ki tulna karke yeh dekhna ki kaun sa behtar perform karta hai"
+  },
+  {
+    "question": "Ek 'heatmap' web design analysis mein kya dikhata hai?",
+    "options": [
+      "Ek webpage par user clicks, taps, aur scrolling behavior ka visual representation",
+      "Ek webpage ka temperature",
+      "Ek webpage ka code",
+      "Ek webpage ki loading speed"
+    ],
+    "answer": "Ek webpage par user clicks, taps, aur scrolling behavior ka visual representation"
+  },
+  {
+    "question": "Design mein 'F-Pattern' reading behavior kya hai?",
+    "options": [
+      "Users web content ko F-shape mein scan karte hain: pehle top par, phir neeche, aur phir content ko scan karte hain",
+      "Users web content ko Z-shape mein scan karte hain",
+      "Users har shabd ko padhte hain",
+      "Users sirf images dekhte hain"
+    ],
+    "answer": "Users web content ko F-shape mein scan karte hain: pehle top par, phir neeche, aur phir content ko scan karte hain"
+  },
+  {
+    "question": "Ek 'breadcrumb' navigation kya hai?",
+    "options": [
+      "Ek secondary navigation jo user ko website hierarchy mein unki current location dikhati hai",
+      "Ek website ka main menu",
+      "Ek website ka footer",
+      "Ek search bar"
+    ],
+    "answer": "Ek secondary navigation jo user ko website hierarchy mein unki current location dikhati hai"
+  },
+  {
+    "question": "Design mein 'above the fold' ka kya matlab hai?",
+    "options": [
+      "Ek webpage ka woh hissa jo bina scroll kiye dikhta hai",
+      "Ek webpage ka woh hissa jo scroll karne ke baad dikhta hai",
+      "Ek webpage ka header",
+      "Ek webpage ka footer"
+    ],
+    "answer": "Ek webpage ka woh hissa jo bina scroll kiye dikhta hai"
+  },
+  {
+    "question": "Ek 'hero image' kya hai?",
+    "options": [
+      "Ek website ke homepage par ek bada, prominent banner image",
+      "Ek chhota icon",
+      "Ek user ka profile picture",
+      "Ek product ki gallery image"
+    ],
+    "answer": "Ek website ke homepage par ek bada, prominent banner image"
+  },
+  {
+    "question": "Design mein 'skeuomorphism' kya tha?",
+    "options": [
+      "Ek design style jo real-world objects ki tarah dikhne wale interface elements banata tha",
+      "Ek minimalist design style",
+      "Ek flat design style",
+      "Ek typography-focused design style"
+    ],
+    "answer": "Ek design style jo real-world objects ki tarah dikhne wale interface elements banata tha"
+  },
+  {
+    "question": "Ek 'favicon' kya hai?",
+    "options": [
+      "Ek chhota icon jo browser tab mein website ke naam ke saath dikhta hai",
+      "Ek website ka logo",
+      "Ek social media icon",
+      "Ek download button"
+    ],
+    "answer": "Ek chhota icon jo browser tab mein website ke naam ke saath dikhta hai"
+  },
+  {
+    "question": "Design mein 'Lorem Ipsum' text ka kya upyog hai?",
+    "options": [
+      "Placeholder text ke roop mein, design layout ko fill karne ke liye",
+      "Final content ke roop mein",
+      "Ek heading ke roop mein",
+      "Ek programming language ke roop mein"
+    ],
+    "answer": "Placeholder text ke roop mein, design layout ko fill karne ke liye"
+  },
+  {
+    "question": "Ek 'grid' mein 'columns', 'gutters', aur 'margins' kya hote hain? (Ek se adhik chunein)",
+    "options": [
+      "Columns vertical blocks hote hain jahan content rakha jaata hai",
+      "Gutters columns ke beech ka space hota hai",
+      "Margins grid ke bahari kinaron par space hota hai",
+      "Rows horizontal blocks hote hain"
+    ],
+    "answer": ["Columns vertical blocks hote hain jahan content rakha jaata hai", "Gutters columns ke beech ka space hota hai", "Margins grid ke bahari kinaron par space hota hai"]
+  },
+  {
+    "question": "Ek 'mood' ya 'tone' design mein kaise set kiya ja sakta hai? (Ek se adhik chunein)",
+    "options": [
+      "Color palette ke madhyam se",
+      "Typography ke chunav se",
+      "Imagery aur photography style se",
+      "Code ki quality se"
+    ],
+    "answer": ["Color palette ke madhyam se", "Typography ke chunav se", "Imagery aur photography style se"]
+  },
+  {
+    "question": "Ek 'triadic' color scheme kya hai?",
+    "options": [
+      "Color wheel par teen saman doori par sthit rangon ka upyog",
+      "Do complementary rangon ka upyog",
+      "Ek hi rang ke shades ka upyog",
+      "Chaar rangon ka upyog jo ek rectangle banate hain"
+    ],
+    "answer": "Color wheel par teen saman doori par sthit rangon ka upyog"
+  }
+]

@@ -10,7 +10,9 @@ if (!isset($_SESSION['user_id'])) {
 
 $user_id = $_SESSION['user_id'];
 
-// Get user's name
+// Debug line: check session value
+// echo "Logged in User ID: " . $user_id;
+
 $user_sql = "SELECT name FROM users WHERE id = ?";
 $user_stmt = $conn->prepare($user_sql);
 $user_stmt->bind_param("i", $user_id);
@@ -25,7 +27,11 @@ $stmt = $conn->prepare($sql);
 $stmt->bind_param("i", $user_id);
 $stmt->execute();
 $result = $stmt->get_result();
+
+// Store all rows to avoid re-fetching issues
+$rows = $result->fetch_all(MYSQLI_ASSOC);
 ?>
+
 
 
 
@@ -61,34 +67,35 @@ $result = $stmt->get_result();
                                 <th>Certificate</th>
                             </tr>
                         </thead>
-                        <tbody>
-                            <?php if ($result->num_rows > 0): ?>
-                                <?php while($row = $result->fetch_assoc()): ?>
-                                    <tr>
-                                        <td><?= htmlspecialchars($student_name); ?></td>
-                                        <td><?= htmlspecialchars($row['subject']); ?></td>
-                                        <td>
-                                            <?php if ($row['status'] == 'approved'): ?>
-                                                <?= $row['score']; ?> / <?= $row['total_questions']; ?>
-                                            <?php else: ?>
-                                                -
-                                            <?php endif; ?>
-                                        </td>
-                                        <td><?= htmlspecialchars($row['status']); ?></td>
-                                        <td><?= $row['submission_date']; ?></td>
-                                        <td>
-                                            <?php if ($row['status'] == 'approved'): ?>
-                                                <a href="certificate.html?subject=<?= urlencode($row['subject']); ?>&date=<?= urlencode($row['submission_date']); ?>" class="btn btn-success">Download</a>
-                                            <?php else: ?>
-                                                -
-                                            <?php endif; ?>
-                                        </td>
-                                    </tr>
-                                <?php endwhile; ?>
-                            <?php else: ?>
-                                <tr><td colspan="6">You have not taken any exams yet.</td></tr>
-                            <?php endif; ?>
-                        </tbody>
+                      <tbody>
+<?php if (count($rows) > 0): ?>
+    <?php foreach ($rows as $row): ?>
+        <tr>
+            <td><?= htmlspecialchars($student_name); ?></td>
+            <td><?= htmlspecialchars($row['subject']); ?></td>
+            <td>
+                <?php if ($row['status'] == 'approved'): ?>
+                    <?= $row['score']; ?> / <?= $row['total_questions']; ?>
+                <?php else: ?>
+                    -
+                <?php endif; ?>
+            </td>
+            <td><?= htmlspecialchars($row['status']); ?></td>
+            <td><?= htmlspecialchars($row['submission_date']); ?></td>
+            <td>
+                <?php if ($row['status'] == 'approved'): ?>
+                    <a href="certificate.html?subject=<?= urlencode($row['subject']); ?>&date=<?= urlencode($row['submission_date']); ?>" class="btn btn-success">Download</a>
+                <?php else: ?>
+                    -
+                <?php endif; ?>
+            </td>
+        </tr>
+    <?php endforeach; ?>
+<?php else: ?>
+    <tr><td colspan="6">You have not taken any exams yet.</td></tr>
+<?php endif; ?>
+</tbody>
+
                     </table>
                 </div>
             </div>

@@ -176,7 +176,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const subject = urlParams.get("subject");
 
     const subjectFileMap = {
-        "Graphic Design": "qgraphic-design.json",
+        "Graphic Design": "graphic-design.json",
         "Digital Marketing": "digitalmarketing.json",
         "Web Development": "web-development.json",
         "RS-CIT": "RS-CIT.json",
@@ -234,10 +234,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const optionsContainer = document.querySelector(".options-container");
         optionsContainer.innerHTML = "";
+        const isMultipleChoice = Array.isArray(q.answer);
+        
         q.options.forEach((opt) => {
             const label = document.createElement("label");
-            const isChecked = answers[currentQuestionIndex] === opt;
-            label.innerHTML = `<input type="radio" name="option" value="${opt}" ${isChecked ? "checked" : ""}> ${opt}`;
+            const inputType = isMultipleChoice ? "checkbox" : "radio";
+            const currentAnswers = answers[currentQuestionIndex];
+            const isChecked = isMultipleChoice 
+                ? Array.isArray(currentAnswers) && currentAnswers.includes(opt)
+                : currentAnswers === opt;
+
+            label.innerHTML = `<input type="${inputType}" name="option" value="${opt}" ${isChecked ? "checked" : ""}> ${opt}`;
             optionsContainer.appendChild(label);
         });
 
@@ -272,9 +279,13 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function saveAnswer() {
-        const selected = document.querySelector('input[name="option"]:checked');
-        if (selected) {
-            answers[currentQuestionIndex] = selected.value;
+        const selectedInputs = document.querySelectorAll('input[name="option"]:checked');
+        if (selectedInputs.length > 0) {
+            const selectedValues = Array.from(selectedInputs).map(input => input.value);
+            // If it's a single-answer question (radio), store as a string. Otherwise, store as an array.
+            answers[currentQuestionIndex] = selectedInputs[0].type === 'radio' ? selectedValues[0] : selectedValues;
+        } else {
+            answers[currentQuestionIndex] = null;
         }
     }
 
@@ -316,13 +327,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function submitExam() {
         saveAnswer();
-        const correctAnswers = answers.filter((ans, i) => {
-            // Trim both the user's answer and the correct answer to remove any leading/trailing whitespace.
-            const userAnswer = ans ? ans.trim() : null;
-            const correctAnswer = questions[i].answer ? questions[i].answer.trim() : null;
-            return userAnswer === correctAnswer;
-        }).length;
+        let correctAnswersCount = 0;
+        for (let i = 0; i < questions.length; i++) {
+            const correct = questions[i].answer;
+            const user = answers[i];
+
+            if (Array.isArray(correct)) {
+                // Multiple choice: arrays must match perfectly
+                if (Array.isArray(user) && user.length === correct.length) {
+                    const sortedUser = [...user].sort();
+                    const sortedCorrect = [...correct].sort();
+                    if (JSON.stringify(sortedUser) === JSON.stringify(sortedCorrect)) {
+                        correctAnswersCount++;
+                    }
+                }
+            } else {
+                // Single choice: strings must match
+                if (user === correct) {
+                    correctAnswersCount++;
+                }
+            }
+        }
         const totalQuestions = questions.length;
+        const correctAnswers = correctAnswersCount;
 
         const resultData = {
             score: correctAnswers,
