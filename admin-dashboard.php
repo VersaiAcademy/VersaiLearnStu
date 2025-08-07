@@ -17,7 +17,7 @@ if ($conn->connect_error) {
 }
 
 // Get all results from DB
-$sql = "SELECT r.user_id, u.name, r.score, r.total_questions, r.subject, r.submit_time FROM results r JOIN users u ON r.user_id = u.id ORDER BY r.submit_time DESC";
+$sql = "SELECT r.id as result_id, r.user_id, u.name, r.score, r.total_questions, r.subject, r.status, r.submission_date FROM results r JOIN users u ON r.user_id = u.id ORDER BY r.submission_date DESC";
 $result = $conn->query($sql);
 ?>
 
@@ -62,7 +62,8 @@ $result = $conn->query($sql);
                                         <th>Subject</th>
                                         <th>Score</th>
                                         <th>Status</th>
-                                        <th>Submit Time</th>
+                                        <th>Submission Date</th>
+                                        <th>Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -73,8 +74,15 @@ $result = $conn->query($sql);
                                                 <td><?= htmlspecialchars($row['name']); ?></td>
                                                 <td><?= htmlspecialchars($row['subject']); ?></td>
                                                 <td><?= $row['score']; ?> / <?= $row['total_questions']; ?></td>
-                                                <td><?= $row['score'] >= ($row['total_questions'] / 2) ? 'Pass' : 'Fail'; ?></td>
-                                                <td><?= $row['submit_time']; ?></td>
+                                                <td><?= htmlspecialchars($row['status']); ?></td>
+                                                <td><?= $row['submission_date']; ?></td>
+                                                <td>
+                                                    <?php if ($row['status'] == 'pending'): ?>
+                                                        <button class="btn btn-primary approve-btn" data-result-id="<?= $row['result_id']; ?>">Approve</button>
+                                                    <?php else: ?>
+                                                        Approved
+                                                    <?php endif; ?>
+                                                </td>
                                             </tr>
                                         <?php endwhile; ?>
                                     <?php else: ?>
@@ -138,5 +146,36 @@ $result = $conn->query($sql);
             </div>
         </main>
     </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const approveButtons = document.querySelectorAll('.approve-btn');
+            approveButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const resultId = button.dataset.resultId;
+                    fetch('approve_result.php', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ result_id: resultId })
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.success) {
+                            // Update the UI to reflect the change
+                            button.parentElement.previousElementSibling.textContent = 'approved';
+                            button.remove();
+                        } else {
+                            alert('Failed to approve result: ' + data.error);
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                        alert('An error occurred while approving the result.');
+                    });
+                });
+            });
+        });
+    </script>
 </body>
 </html>

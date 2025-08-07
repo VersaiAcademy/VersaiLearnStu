@@ -1,732 +1,894 @@
-[
-  {
-    "question": "SEO mein Title Tag ke liye recommended character limit kya hai?",
-    "options": [
-      "50-60 characters",
-      "100-120 characters",
-      "120-150 characters",
-      "50 se kam characters"
-    ],
-    "answer": "50-60 characters"
-  },
-  {
-    "question": "Meta Description ka mukhya uddeshya kya hai?",
-    "options": [
-      "SERPs mein page ka chhota sa summary dena",
-      "Page ke mukhya keywords ki list dena",
-      "Page ka main heading dikhana",
-      "Homepage ka link dena"
-    ],
-    "answer": "SERPs mein page ka chhota sa summary dena"
-  },
-  {
-    "question": "Ek page par behtareen SEO practice ke liye kitne H1 tags hone chahiye?",
-    "options": [
-      "Sirf ek H1 tag",
-      "Do H1 tags",
-      "Jitne aap chahein",
-      "Kam se kam teen H1 tags"
-    ],
-    "answer": "Sirf ek H1 tag"
-  },
-  {
-    "question": "URL structure ke liye kaun sa accha practice hai?",
-    "options": [
-      "Shabdon ko alag karne ke liye hyphens ka upyog karna",
-      "Shabdon ko alag karne ke liye underscores ka upyog karna",
-      "Lambe aur jatil URLs ka upyog karna",
-      "URLs mein random characters ka upyog karna"
-    ],
-    "answer": "Shabdon ko alag karne ke liye hyphens ka upyog karna"
-  },
-  {
-    "question": "Image Alt Tag ka kya uddeshya hai?",
-    "options": [
-      "Search engines ke liye image ka text description dena",
-      "Image ko background ke roop mein set karna",
-      "Image ka size define karna",
-      "Image par border lagana"
-    ],
-    "answer": "Search engines ke liye image ka text description dena"
-  },
-  {
-    "question": "Quality content ke liye recommended minimum word count kya hai?",
-    "options": [
-      "Kam se kam 1000+ shabd",
-      "Kam se kam 500 shabd",
-      "Kam se kam 2000 shabd",
-      "Kam se kam 300 shabd"
-    ],
-    "answer": "Kam se kam 1000+ shabd"
-  },
-  {
-    "question": "Internal linking ka kya uddeshya hai?",
-    "options": [
-      "Apni website ke doosre pages se link karna",
-      "Bahari websites se link karna",
-      "Social media pages se link karna",
-      "Downloadable files se link karna"
-    ],
-    "answer": "Apni website ke doosre pages se link karna"
-  },
-  {
-    "question": "Link mein 'nofollow' attribute ka kya matlab hai?",
-    "options": [
-      "Ki search engine crawlers us link ko follow na karein",
-      "Ki link toota hua hai",
-      "Ki link ek internal link hai",
-      "Ki link ek high-authority link hai"
-    ],
-    "answer": "Ki search engine crawlers us link ko follow na karein"
-  },
-  {
-    "question": "Backlinks banane ke liye kaun sa accha source hai?",
-    "options": [
-      "High-authority blogs par guest posting karna",
-      "Spammy directories se links khareedna",
-      "Apraasangik websites se link karna",
-      "Automated link-building software ka upyog karna"
-    ],
-    "answer": "High-authority blogs par guest posting karna"
-  },
-  {
-    "question": "Off-Page SEO mein social signals ka kya mahatva hai?",
-    "options": [
-      "Ve brand visibility aur engagement badhane mein madad karte hain",
-      "Ve seedhe search engine rankings mein sudhar karte hain",
-      "Ve Google ke liye ek ranking factor hain",
-      "Ve adhik backlinks prapt karne mein madad karte hain"
-    ],
-    "answer": "Ve brand visibility aur engagement badhane mein madad karte hain"
-  },
-  {
-    "question": "Local SEO ka prathmik focus kya hai?",
-    "options": [
-      "Ek sthaaneey darshakon ke liye website ko optimize karna",
-      "Ek vaishvik darshakon ke liye website ko optimize karna",
-      "Mobile devices ke liye website ko optimize karna",
-      "Voice search ke liye website ko optimize karna"
-    ],
-    "answer": "Ek sthaaneey darshakon ke liye website ko optimize karna"
-  },
-  {
-    "question": "sitemap.xml file ka kya uddeshya hai?",
-    "options": [
-      "Search engines ko aapki website crawl aur index karne mein madad karna",
-      "Search engines ko aapki website crawl karne se rokna",
-      "Aapki website par sabhi toote hue links ki list dena",
-      "Aapki website par sabhi images ki list dena"
-    ],
-    "answer": "Search engines ko aapki website crawl aur index karne mein madad karna"
-  },
-  {
-    "question": "robots.txt file ki kya bhoomika hai?",
-    "options": [
-      "Search engine crawlers ko batana ki ve aapki site se kaun se page ya file request kar sakte hain ya nahi",
-      "Aapki website ke liye sabhi keywords ki list dena",
-      "Search engines ko aapki website ka map pradan karna",
-      "Users ko sahi page par svachaalit roop se redirect karna"
-    ],
-    "answer": "Search engine crawlers ko batana ki ve aapki site se kaun se page ya file request kar sakte hain ya nahi"
-  },
-  {
-    "question": "Canonical tags ka upyog karne ka kya uddeshya hai?",
-    "options": [
-      "Duplicate content samasyaon se bachne ke liye ek page ka pasandeeda version nirdisht karna",
-      "Alag-alag kshetron ke liye ek page ki copy banana",
-      "Ek page ke alag version se link karna",
-      "Ek page ko search engines se chipana"
-    ],
-    "answer": "Duplicate content samasyaon se bachne ke liye ek page ka pasandeeda version nirdisht karna"
-  },
-  {
-    "question": "SEO ke liye SSL certificate (HTTPS) ka kya mahatva hai?",
-    "options": [
-      "Yeh Google ke liye ek ranking signal hai aur website suraksha mein sudhar karta hai",
-      "Yeh Google ke liye ranking signal nahi hai",
-      "Yeh keval e-commerce websites ke liye aavashyak hai",
-      "Yeh website ki speed ko dheema kar deta hai"
-    ],
-    "answer": "Yeh Google ke liye ek ranking signal hai aur website suraksha mein sudhar karta hai"
-  },
-  {
-    "question": "Core Web Vitals kya hain?",
-    "options": [
-      "Ek page ki speed, responsiveness, aur visual stability se sambandhit metrics ka ek set",
-      "Ek page ke backlinks ki sankhya se sambandhit metrics ka ek set",
-      "Ek page ke keyword density se sambandhit metrics ka ek set",
-      "Ek page ke social shares se sambandhit metrics ka ek set"
-    ],
-    "answer": "Ek page ki speed, responsiveness, aur visual stability se sambandhit metrics ka ek set"
-  },
-  {
-    "question": "Ek acche user experience ke liye aadarsh LCP (Largest Contentful Paint) score kya hai?",
-    "options": [
-      "2.5 second se kam",
-      "4 second se kam",
-      "1 second se kam",
-      "5 second se kam"
-    ],
-    "answer": "2.5 second se kam"
-  },
-  {
-    "question": "Ek acche user experience ke liye aadarsh FID (First Input Delay) score kya hai?",
-    "options": [
-      "100 millisecond se kam",
-      "200 millisecond se kam",
-      "50 millisecond se kam",
-      "300 millisecond se kam"
-    ],
-    "answer": "100 millisecond se kam"
-  },
-  {
-    "question": "Ek acche user experience ke liye aadarsh CLS (Cumulative Layout Shift) score kya hai?",
-    "options": [
-      "0.1 se kam",
-      "0.5 se kam",
-      "0.2 se kam",
-      "1 se kam"
-    ],
-    "answer": "0.1 se kam"
-  },
-  {
-    "question": "Website ke performance aur SEO issues ko check karne ke liye kaun sa tool istemal kiya ja sakta hai?",
-    "options": [
-      "Google Search Console",
-      "Google Analytics",
-      "Google Keyword Planner",
-      "Google Trends"
-    ],
-    "answer": "Google Search Console"
-  },
-  {
-    "question": "Keyword research ke liye mukhya roop se kaun sa tool istemal kiya jata hai?",
-    "options": [
-      "Google Keyword Planner",
-      "Google Search Console",
-      "Google Analytics",
-      "Google Trends"
-    ],
-    "answer": "Google Keyword Planner"
-  },
-  {
-    "question": "Neil Patel ke Ubersuggest ka mukhya kaam kya hai?",
-    "options": [
-      "Keyword research, site audit, aur backlink analysis",
-      "Website hosting aur domain registration",
-      "Website content banana aur edit karna",
-      "Website traffic aur user behavior ki nigrani karna"
-    ],
-    "answer": "Keyword research, site audit, aur backlink analysis"
-  },
-  {
-    "question": "Kaun sa tool yah pata lagane mein madad karta hai ki log kisi vishay par kya search kar rahe hain?",
-    "options": [
-      "Answer The Public",
-      "Google Trends",
-      "Google Keyword Planner",
-      "Ubersuggest"
-    ],
-    "answer": "Answer The Public"
-  },
-  {
-    "question": "On-page SEO analysis ke liye nimnlikhit mein se kaun sa free Chrome extension hai?",
-    "options": [
-      "SEO Minion",
-      "Ahrefs",
-      "SEMrush",
-      "Moz"
-    ],
-    "answer": "SEO Minion"
-  },
-  {
-    "question": "SEO content ke liye Grammarly ya Hemingway Editor ka upyog karne ka kya uddeshya hai?",
-    "options": [
-      "Content ko adhik padhne योग्य aur vyakaran-proof banana",
-      "Content ke liye keywords dhundhna",
-      "Content ka backlink profile check karna",
-      "Pratiyogi ke content ka vishleshan karna"
-    ],
-    "answer": "Content ko adhik padhne योग्य aur vyakaran-proof banana"
-  },
-  {
-    "question": "Schema Markup kya hai?",
-    "options": [
-      "Code jo search engines ko aapke content ko behtar tarike se samajhne mein madad karta hai",
-      "Website ki speed check karne ka ek tool",
-      "Ek prakaar ka backlink",
-      "Keyword stuffing ka ek tarika"
-    ],
-    "answer": "Code jo search engines ko aapke content ko behtar tarike se samajhne mein madad karta hai"
-  },
-  {
-    "question": "Schema Markup lagoo karne ke liye aam taur par kaun sa format istemal kiya jata hai?",
-    "options": [
-      "JSON-LD",
-      "HTML",
-      "CSS",
-      "XML"
-    ],
-    "answer": "JSON-LD"
-  },
-  {
-    "question": "On-Page SEO ka prathmik lakshya kya hai?",
-    "options": [
-      "Individual web pages ko rank mein upar laane ke liye optimize karna",
-      "Doosri websites se backlinks banana",
-      "Social media par content promote karna",
-      "Website server performance mein sudhar karna"
-    ],
-    "answer": "Individual web pages ko rank mein upar laane ke liye optimize karna"
-  },
-  {
-    "question": "'Keyword stuffing' kya hai?",
-    "options": [
-      "Rankings mein herapheri karne ke liye ek webpage ko keywords se bhar dena",
-      "Content mein स्वाभाविक roop se प्रासंगिक keywords ka upyog karna",
-      "Ek vishay ke liye sabse acche keywords par research karna",
-      "Meta description mein keywords daalna"
-    ],
-    "answer": "Rankings mein herapheri karne ke liye ek webpage ko keywords se bhar dena"
-  },
-  {
-    "question": "Mobile optimization SEO ke liye kyon mahatvapurna hai?",
-    "options": [
-      "Google mobile-first indexing ka upyog karta hai",
-      "Yah website ko desktop par tezi se load karta hai",
-      "Yah backlinks prapt karne ke liye ek aavashyakta hai",
-      "Yah behtar content banane mein madad karta hai"
-    ],
-    "answer": "Google mobile-first indexing ka upyog karta hai"
-  },
-  {
-    "question": "'301 redirect' kya hai?",
-    "options": [
-      "Ek URL se doosre par ek sthayi redirect",
-      "Ek URL se doosre par ek asthayi redirect",
-      "Ek redirect jo 404 error page ki or le jata hai",
-      "Ek redirect jo search engines dwara block kiya gaya hai"
-    ],
-    "answer": "Ek URL se doosre par ek sthayi redirect"
-  },
-  {
-    "question": "Local SEO ke sandarbh mein 'NAP' ka kya arth hai?",
-    "options": [
-      "Naam, Pata, Phone Number",
-      "Naya, Sakriya, Lokpriya",
-      "Navigation, Sugamta, Pradarshan",
-      "Notes, Lekh, Prakashan"
-    ],
-    "answer": "Naam, Pata, Phone Number"
-  },
-  {
-    "question": "'Broken Link Building' kya hai?",
-    "options": [
-      "Doosri sites par toote hue links dhundhna aur apne link ko badlav ke roop mein sujhana",
-      "Apni website par toote hue links ko theek karna",
-      "Jaan boojhkar toote hue links banana",
-      "Doosri websites se toote hue links khareedna"
-    ],
-    "answer": "Doosri sites par toote hue links dhundhna aur apne link ko badlav ke roop mein sujhana"
-  },
-  {
-    "question": "Pratiyogi backlink vishleshan ke liye kaun sa tool istemal kiya jata hai?",
-    "options": [
-      "Ahrefs, SEMrush, ya Ubersuggest",
-      "Google Analytics",
-      "Google Search Console",
-      "Google Keyword Planner"
-    ],
-    "answer": "Ahrefs, SEMrush, ya Ubersuggest"
-  },
-  {
-    "question": "CDN (Content Delivery Network) ka kya uddeshya hai?",
-    "options": [
-      "User ke nazdeeki servers se content vitarit karke website ki speed mein sudhar karna",
-      "Website content banana aur prabandhit karna",
-      "Website traffic aur user behavior ki nigrani karna",
-      "Doosri websites se backlinks banana"
-    ],
-    "answer": "User ke nazdeeki servers se content vitarit karke website ki speed mein sudhar karna"
-  },
-  {
-    "question": "'Lazy loading' kya hai?",
-    "options": [
-      "Ek takneek jahan images tabhi load hoti hain jab ve screen par dikhne wali hoti hain",
-      "Poore webpage ko ek saath load karne ki ek vidhi",
-      "Images ko unke file size ko kam karne ke liye compress karne ka ek tarika",
-      "Search engines se content chipane ki ek takneek"
-    ],
-    "answer": "Ek takneek jahan images tabhi load hoti hain jab ve screen par dikhne wali hoti hain"
-  },
-  {
-    "question": "Structured data ka upyog karne ka mukhya laabh kya hai?",
-    "options": [
-      "Yah aapki site ko rich results, jaise snippets aur carousels mein dikhne mein madad kar sakta hai",
-      "Yah Google par top ranking ki guarantee deta hai",
-      "Yah svachaalit roop se aapki site par backlinks banata hai",
-      "Yah aapki website ke design aur layout mein sudhar karta hai"
-    ],
-    "answer": "Yah aapki site ko rich results, jaise snippets aur carousels mein dikhne mein madad kar sakta hai"
-  },
-  {
-    "question": "Nimnlikhit mein se kaun sa user engagement signal ka udaharan hai?",
-    "options": [
-      "Page par bitaya gaya samay",
-      "Backlinks ki sankhya",
-      "Keyword density",
-      "Website loading speed"
-    ],
-    "answer": "Page par bitaya gaya samay"
-  },
-  {
-    "question": "Off-page SEO mein press release ka kya uddeshya hai?",
-    "options": [
-      "Brand visibility haasil karna aur sambhavतः samachar sites se backlinks prapt karna",
-      "Seedhe utpaadon ya sevaon ko bechna",
-      "Website ke internal linking structure mein sudhar karna",
-      "Website par toote hue links ko theek karna"
-    ],
-    "answer": "Brand visibility haasil karna aur sambhavतः samachar sites se backlinks prapt karna"
-  },
-  {
-    "question": "'Brand mention' kya hai?",
-    "options": [
-      "Jab aapke brand ka online ullekh kiya jata hai, bhale hi link na ho",
-      "Ek doosri website se aapki website ka link",
-      "Ek keyword jismein aapka brand naam shamil hai",
-      "Aapke brand ke baare mein ek social media post"
-    ],
-    "answer": "Jab aapke brand ka online ullekh kiya jata hai, bhale hi link na ho"
-  },
-  {
-    "question": "Ek saaf URL structure hona kyon mahatvapurna hai?",
-    "options": [
-      "Yah users aur search engines dono ke liye samajhne mein aasan hai",
-      "Yah HTTPS ka upyog karne ke liye ek aavashyakta hai",
-      "Yah svachaalit roop se website ki speed mein sudhar karta hai",
-      "Yah behtar content banane mein madad karta hai"
-    ],
-    "answer": "Yah users aur search engines dono ke liye samajhne mein aasan hai"
-  },
-  {
-    "question": "Google My Business ka mukhya uddeshya kya hai?",
-    "options": [
-      "Google par apni online upasthiti ka prabandhan karna, jismein Search aur Maps shamil hain",
-      "Online utpaadon ko khareedna aur bechna",
-      "Website content banana aur edit karna",
-      "Website traffic aur user behavior ki nigrani karna"
-    ],
-    "answer": "Google par apni online upasthiti ka prabandhan karna, jismein Search aur Maps shamil hain"
-  },
-  {
-    "question": "'Duplicate content' kya hai?",
-    "options": [
-      "Jab ek hi ya saman content kai URLs par dikhai deta hai",
-      "Content jo doosri website se copy kiya gaya hai",
-      "Content jo kai bhashaon mein likha gaya hai",
-      "Content jo keywords ke liye optimize nahi hai"
-    ],
-    "answer": "Jab ek hi ya saman content kai URLs par dikhai deta hai"
-  },
-  {
-    "question": "Aap duplicate content samasyaon ko kaise theek kar sakte hain?",
-    "options": [
-      "Canonical tags ya 301 redirects ka upyog karke",
-      "Duplicate pages ko delete karke",
-      "Duplicate pages ko crawl hone se rok kar",
-      "Duplicate pages ka title badal kar"
-    ],
-    "answer": "Canonical tags ya 301 redirects ka upyog karke"
-  },
-  {
-    "question": "'404 error' page ka kya uddeshya hai?",
-    "options": [
-      "Users ko soochit karna ki anurodhit page nahi mil saka",
-      "Users ko homepage par redirect karna",
-      "Users ko website tak pahunchne se rokna",
-      "Website par sabhi pages ki list dikhana"
-    ],
-    "answer": "Users ko soochit karna ki anurodhit page nahi mil saka"
-  },
-  {
-    "question": "Website par toote hue links dhundhne ke liye kaun sa tool istemal kiya ja sakta hai?",
-    "options": [
-      "Screaming Frog ya Ahrefs",
-      "Google Analytics",
-      "Google Search Console",
-      "Google Keyword Planner"
-    ],
-    "answer": "Screaming Frog ya Ahrefs"
-  },
-  {
-    "question": "Technical SEO ka mukhya lakshya kya hai?",
-    "options": [
-      "Search engine spiders ko ek site ko adhik prabhavi dhang se crawl aur index karne mein madad karna",
-      "Ek website ke liye uchch-gunवत्ता wala content banana",
-      "Doosri websites se backlinks banana",
-      "Social media par ek website ka prachar karna"
-    ],
-    "answer": "Search engine spiders ko ek site ko adhik prabhavi dhang se crawl aur index karne mein madad karna"
-  },
-  {
-    "question": "Ek responsive theme ka upyog karne ka kya laabh hai?",
-    "options": [
-      "Yah sunishchit karta hai ki aapki website sabhi devices par acchi dikhe, jismein desktops, tablets, aur smartphones shamil hain",
-      "Yah svachaalit roop se aapki site par backlinks banata hai",
-      "Yah aapki website ke keyword rankings mein sudhar karta hai",
-      "Yah behtar content banane mein madad karta hai"
-    ],
-    "answer": "Yah sunishchit karta hai ki aapki website sabhi devices par acchi dikhe, jismein desktops, tablets, aur smartphones shamil hain"
-  },
-  {
-    "question": "Yah test karne ke liye kaun sa tool istemal kiya ja sakta hai ki koi website mobile-friendly hai ya nahi?",
-    "options": [
-      "Google Mobile-Friendly Test",
-      "Google Analytics",
-      "Google Search Console",
-      "Google Keyword Planner"
-    ],
-    "answer": "Google Mobile-Friendly Test"
-  },
-  {
-    "question": "'Caching' kya hai?",
-    "options": [
-      "Files ki copies ko ek temporary storage location mein store karna taki unhe tezi se serve kiya ja sake",
-      "Backlinks banane ka ek tarika",
-      "Pratiyogi websites ka vishleshan karne ka ek tarika",
-      "SEO-friendly content likhne ki ek takneek"
-    ],
-    "answer": "Files ki copies ko ek temporary storage location mein store karna taki unhe tezi se serve kiya ja sake"
-  },
-  {
-    "question": "JS aur CSS files ko minify karne ka kya uddeshya hai?",
-    "options": [
-      "Unke file size ko kam karna aur website loading speed mein sudhar karna",
-      "Unhe developers ke liye padhne mein aasan banana",
-      "Files mein adhik keywords jodna",
-      "Code ko pratiyogiyon se chipana"
-    ],
-    "answer": "Unke file size ko kam karna aur website loading speed mein sudhar karna"
-  },
-  {
-    "question": "'SERP' kya hai?",
-    "options": [
-      "Search Engine Results Page",
-      "Search Engine Ranking Position",
-      "Search Engine Related Pages",
-      "Search Engine Ranking Program"
-    ],
-    "answer": "Search Engine Results Page"
-  },
-  {
-    "question": "'LSI keywords' kya hain?",
-    "options": [
-      "Latent Semantic Indexing keywords, jo mukhya keyword se vaicharik roop se sambandhit shabd hain",
-      "Long-tail keywords jo atyadhik vishisht hain",
-      "Keywords jo galat spelling wale hain",
-      "Keywords jo users se chipaye gaye hain"
-    ],
-    "answer": "Latent Semantic Indexing keywords, jo mukhya keyword se vaicharik roop se sambandhit shabd hain"
-  },
-  {
-    "question": "'Rich snippet' kya hai?",
-    "options": [
-      "Atirikt data ke saath pradarshit ek samanya Google search result",
-      "Ek search result jo page ke bilkul upar dikhai deta hai",
-      "Ek search result jiske liye bhugtan kiya gaya hai",
-      "Ek search result jismein ek image shamil hai"
-    ],
-    "answer": "Atirikt data ke saath pradarshit ek samanya Google search result"
-  },
-  {
-    "question": "'Disavow tool' ka kya uddeshya hai?",
-    "options": [
-      "Google se apni site ke kuch backlinks ko ignore karne ke liye kehna",
-      "Naye backlink avसर dhundhna",
-      "Apne pratiyogiyon ke backlinks ka vishleshan karna",
-      "Apni site par svachaalit roop se backlinks banana"
-    ],
-    "answer": "Google se apni site ke kuch backlinks ko ignore karne ke liye kehna"
-  },
-  {
-    "question": "'Anchor text' kya hai?",
-    "options": [
-      "Ek hyperlink mein clickable text",
-      "Jab aap ek link par hover karte hain to dikhne wala text",
-      "Ek image ka varnan karne wala text",
-      "Ek page ka mukhya heading"
-    ],
-    "answer": "Ek hyperlink mein clickable text"
-  },
-  {
-    "question": "'Domain authority' kya hai?",
-    "options": [
-      "Ek search engine ranking score jo bhavishवाणी karta hai ki ek website SERPs par kitna accha rank karegi",
-      "Ek domain ki aayu",
-      "Ek website par pages ki sankhya",
-      "Ek website jin keywords ke liye rank karti hai unki sankhya"
-    ],
-    "answer": "Ek search engine ranking score jo bhavishवाणी karta hai ki ek website SERPs par kitna accha rank karegi"
-  },
-  {
-    "question": "'Page authority' kya hai?",
-    "options": [
-      "Ek score jo bhavishवाणी karta hai ki ek vishisht page SERPs par kitna accha rank karega",
-      "Ek page par shabdon ki sankhya",
-      "Ek page par images ki sankhya",
-      "Ek page par internal links ki sankhya"
-    ],
-    "answer": "Ek score jo bhavishवाणी karta hai ki ek vishisht page SERPs par kitna accha rank karega"
-  },
-  {
-    "question": "'Long-tail keyword' kya hai?",
-    "options": [
-      "Ek keyword phrase jo ek adhik samanya keyword se lamba aur adhik vishisht hai",
-      "Ek keyword jo teen shabdon se kam lamba hai",
-      "Ek keyword jo atyadhik pratispardhi hai",
-      "Ek keyword jo content se प्रासंगिक nahi hai"
-    ],
-    "answer": "Ek keyword phrase jo ek adhik samanya keyword se lamba aur adhik vishisht hai"
-  },
-  {
-    "question": "'PPC' kya hai?",
-    "options": [
-      "Pay-per-click, internet marketing ka ek model jismein vigyapan data har baar unke ek vigyapan par click hone par shulk ka bhugtan karte hain",
-      "Page-per-click, website traffic mapne ke liye ek metric",
-      "Price-per-click, ek vigyapan par ek click ki lagat",
-      "People-per-click, ek vigyapan par click karne wale logon ki sankhya"
-    ],
-    "answer": "Pay-per-click, internet marketing ka ek model jismein vigyapan data har baar unke ek vigyapan par click hone par shulk ka bhugtan karte hain"
-  },
-  {
-    "question": "SEO aur SEM mein kya antar hai?",
-    "options": [
-      "SEO SEM (Search Engine Marketing) ka ek hissa hai, jismein bhugtan kiye gaye vigyapan bhi shamil hain",
-      "SEO aur SEM ek hi cheez hain",
-      "SEO bhugtan kiye gaye vigyapan ke baare mein hai, jabki SEM organic traffic ke baare mein hai",
-      "SEO social media ke liye hai, jabki SEM search engines ke liye hai"
-    ],
-    "answer": "SEO SEM (Search Engine Marketing) ka ek hissa hai, jismein bhugtan kiye gaye vigyapan bhi shamil hain"
-  },
-  {
-    "question": "'Crawler' ya 'spider' kya hai?",
-    "options": [
-      "Search engines dwara web pages ko khojne aur index karne ke liye istemal kiya jane wala ek bot",
-      "Ek website par toote hue links dhundhne ke liye ek tool",
-      "Backlinks banane ke liye ek program",
-      "Ek prakaar ka malware jo ek website ko nuksan pahuncha sakta hai"
-    ],
-    "answer": "Search engines dwara web pages ko khojne aur index karne ke liye istemal kiya jane wala ek bot"
-  },
-  {
-    "question": "'Indexing' kya hai?",
-    "options": [
-      "Web pages ko Google ke database mein jodna",
-      "Ek website ke liye sitemap banana",
-      "Ek website ko mobile devices ke liye optimize karna",
-      "Ek website par backlinks banana"
-    ],
-    "answer": "Web pages ko Google ke database mein jodna"
-  },
-  {
-    "question": "'Ranking' kya hai?",
-    "options": [
-      "Search engine results page par ek website ki sthiti",
-      "Ek website par aagantukon ki sankhya",
-      "Ek website par backlinks ki sankhya",
-      "Ek website ki aayu"
-    ],
-    "answer": "Search engine results page par ek website ki sthiti"
-  },
-  {
-    "question": "'Meta keyword' tag kya hai?",
-    "options": [
-      "Ek tag jo kabhi ek page ke liye keywords pradan karne ke liye istemal kiya jata tha, lekin ab search engines dwara bade paimane par andekha kiya jata hai",
-      "Ek tag jo ek page ke mukhya keyword ko paribhashit karne ke liye istemal kiya jata hai",
-      "Ek tag jo users se keywords chipane ke liye istemal kiya jata hai",
-      "Ek tag jo ek page ke liye keywords ki list banane ke liye istemal kiya jata hai"
-    ],
-    "answer": "Ek tag jo kabhi ek page ke liye keywords pradan karne ke liye istemal kiya jata tha, lekin ab search engines dwara bade paimane par andekha kiya jata hai"
-  },
-  {
-    "question": "'Black hat SEO' kya hai?",
-    "options": [
-      "Anaitik SEO takneekein jo search engine dishanirdeshon ka ullanghan karti hain",
-      "Naitik SEO takneekein jo search engine dishanirdeshon ka palan karti hain",
-      "SEO takneekein jo ab prabhavi nahi hain",
-      "SEO takneekein jo keval badi companiyon dwara istemal ki jati hain"
-    ],
-    "answer": "Anaitik SEO takneekein jo search engine dishanirdeshon ka ullanghan karti hain"
-  },
-  {
-    "question": "'White hat SEO' kya hai?",
-    "options": [
-      "Naitik SEO takneekein jo search engine dishanirdeshon ka palan karti hain",
-      "Anaitik SEO takneekein jo search engine dishanirdeshon ka ullanghan karti hain",
-      "SEO takneekein jo purani ho chuki hain",
-      "SEO takneekein jo keval e-commerce websites ke liye istemal ki jati hain"
-    ],
-    "answer": "Naitik SEO takneekein jo search engine dishanirdeshon ka palan karti hain"
-  },
-  {
-    "question": "'Gray hat SEO' kya hai?",
-    "options": [
-      "SEO takneekein jo white hat aur black hat vidhiyon ka mishran hain",
-      "SEO takneekein jo abhi tak white hat ya black hat ke roop mein vargikrit nahi hain",
-      "SEO takneekein jo keval thode samay ke liye istemal ki jati hain",
-      "SEO takneekein jo prabhavi nahi hain"
-    ],
-    "answer": "SEO takneekein jo white hat aur black hat vidhiyon ka mishran hain"
-  },
-  {
-    "question": "'Google penalty' kya hai?",
-    "options": [
-      "Google ke ranking algorithms mein update ya manual samiksha ke आधार par ek site ki search rankings par nakaratmak prabhav",
-      "Ek shulk jo Google ko unke dishanirdeshon ka ullanghan karne ke liye bhugtan karna hoga",
-      "Sambhavit SEO muddon ke baare mein Google se ek chetavani",
-      "Google ke search results se ek asthayi pratibandh"
-    ],
-    "answer": "Google ke ranking algorithms mein update ya manual samiksha ke आधार par ek site ki search rankings par nakaratmak prabhav"
-  },
-  {
-    "question": "'Link juice' kya hai?",
-    "options": [
-      "Links ke madhyam se ek page ya site se doosre mein paarit moolya ya equity",
-      "Ek page par links ki sankhya",
-      "Ek page par content ki gunvatta",
-      "Ek link ki aayu"
-    ],
-    "answer": "Links ke madhyam se ek page ya site se doosre mein paarit moolya ya equity"
-  },
-  {
-    "question": "'Silo structure' kya hai?",
-    "options": [
-      "Sambandhit pages ko ek saath samuhit karne ke liye ek website ke content ko vyavasthit karne ka ek tarika",
-      "Backlinks banane ka ek tarika",
-      "SEO-friendly content likhne ki ek takneek",
-      "Pratiyogi websites ka vishleshan karne ka ek tarika"
-    ],
-    "answer": "Sambandhit pages ko ek saath samuhit karne ke liye ek website ke content ko vyavasthit karne ka ek tarika"
-  },
-  {
-    "question": "'Voice search optimization' kya hai?",
-    "options": [
-      "Apne content ko voice search results mein dikhane ke liye optimize karna",
-      "Apne content ke audio version banana",
-      "Apni website ka prabandhan karne ke liye voice commands ka upyog karna",
-      "Apni website mein voice search feature jodna"
-    ],
-    "answer": "Apne content ko voice search results mein dikhane ke liye optimize karna"
-  },
-  {
-    "question": "SEO mein 'E-A-T' kya hai?",
-    "options": [
-      "Visheshagyata, Pradhikaran, aur Vishvasniyata",
-      "Sagai, Pradhikaran, aur Traffic",
-      "Utkrishtata, Pramanikta, aur Pardarshita",
-      "Dakshata, Sateekta, aur Samaybaddhata"
-    ],
-    "answer": "Visheshagyata, Pradhikaran, aur Vishvasniyata"
-  }
-]
+{
+  "seo_questions": [
+    {
+      "question": "Title tag mein maximum kitne characters hone chahiye?",
+      "options": [
+        "30-40",
+        "50-60",
+        "70-80",
+        "100+"
+      ],
+      "answer": "50-60"
+    },
+    {
+      "question": "Meta description ki ideal length kya hai?",
+      "options": [
+        "50-70 characters",
+        "200-250 characters",
+        "120-150 characters",
+        "300+ characters"
+      ],
+      "answer": "120-150 characters"
+    },
+    {
+      "question": "Ek page pe kitne H1 tags hone chahiye?",
+      "options": [
+        "0",
+        "1",
+        "2-3",
+        "Jitne marzi"
+      ],
+      "answer": "1"
+    },
+    {
+      "question": "Content formatting ke liye kaunse elements use karne chahiye?",
+      "options": [
+        "Sirf paragraphs",
+        "Bullet points aur headings",
+        "Sirf images",
+        "Kuch bhi nahi"
+      ],
+      "answer": "Bullet points aur headings"
+    },
+    {
+      "question": "External links ke liye best practice kya hai?",
+      "options": [
+        "10-15 links dena",
+        "2-3 high authority sources ko link karna",
+        "Sirf affiliate links dena",
+        "Koi bhi website ko link karna"
+      ],
+      "answer": "2-3 high authority sources ko link karna"
+    },
+    {
+      "question": "URL structure mein kya avoid karna chahiye?",
+      "options": [
+        "Hyphens (-)",
+        "Underscores (_)",
+        "Lowercase letters",
+        "Numbers"
+      ],
+      "answer": "Underscores (_)"
+    },
+    {
+      "question": "Image alt text ka main purpose kya hai?",
+      "options": [
+        "Google ko image samajhne mein madad karna",
+        "Image ka size kam karna",
+        "Design ko improve karna",
+        "Kuch khaas nahi"
+      ],
+      "answer": "Google ko image samajhne mein madad karna"
+    },
+    {
+      "question": "Minimum content length for better SEO kitni honi chahiye?",
+      "options": [
+        "200 words",
+        "500 words",
+        "1000+ words",
+        "50 words"
+      ],
+      "answer": "1000+ words"
+    },
+    {
+      "question": "Internal linking ka fayda kya hai?",
+      "options": [
+        "Page speed badhata hai",
+        "Users ko related content dikhata hai",
+        "Backlinks badhate hai",
+        "Social shares increase karta hai"
+      ],
+      "answer": "Users ko related content dikhata hai"
+    },
+    {
+      "question": "Schema markup kis format mein hota hai?",
+      "options": [
+        "XML",
+        "CSV",
+        "JSON-LD",
+        "TXT"
+      ],
+      "answer": "JSON-LD"
+    },
+    {
+      "question": "Kaun sa tool free mein website errors check karta hai?",
+      "options": [
+        "Google Search Console",
+        "Google Analytics",
+        "Facebook Insights",
+        "Instagram Analytics"
+      ],
+      "answer": "Google Search Console"
+    },
+    {
+      "question": "Keyword stuffing kyun avoid karna chahiye?",
+      "options": [
+        "Google penalty de sakta hai",
+        "Content unnatural lagta hai",
+        "Dono A aur B",
+        "Koi farak nahi padta"
+      ],
+      "answer": "Dono A aur B"
+    },
+    {
+      "question": "Mobile optimization ke liye kya jaroori hai?",
+      "options": [
+        "Sirf images optimize karna",
+        "Responsive design hona",
+        "JavaScript disable karna",
+        "Flash content use karna"
+      ],
+      "answer": "Responsive design hona"
+    },
+    {
+      "question": "Canonical tags ka use kyun kiya jata hai?",
+      "options": [
+        "Duplicate content problems solve karne ke liye",
+        "Backlinks badhane ke liye",
+        "Social sharing ke liye",
+        "Email marketing ke liye"
+      ],
+      "answer": "Duplicate content problems solve karne ke liye"
+    },
+    {
+      "question": "Core Web Vitals mein kaun sa metric include nahi hota?",
+      "options": [
+        "LCP (Largest Contentful Paint)",
+        "FID (First Input Delay)",
+        "CLS (Cumulative Layout Shift)",
+        "BPR (Backlink Profile Ratio)"
+      ],
+      "answer": "BPR (Backlink Profile Ratio)"
+    },
+    {
+      "question": "Off-Page SEO ka sabse important factor kya hai?",
+      "options": [
+        "Content length",
+        "Backlinks",
+        "Image optimization",
+        "URL structure"
+      ],
+      "answer": "Backlinks"
+    },
+    {
+      "question": "Guest posting ka main purpose kya hai?",
+      "options": [
+        "Paise kamana",
+        "Backlinks aur authority build karna",
+        "Social media followers badhana",
+        "Email list build karna"
+      ],
+      "answer": "Backlinks aur authority build karna"
+    },
+    {
+      "question": "Kaun sa platform Q&A ke liye best hai?",
+      "options": [
+        "Pinterest",
+        "Quora",
+        "Twitter",
+        "LinkedIn"
+      ],
+      "answer": "Quora"
+    },
+    {
+      "question": "Brand mentions ka SEO mein kya role hai?",
+      "options": [
+        "Direct traffic badhata hai",
+        "Google ko brand credibility dikhata hai",
+        "Dono A aur B",
+        "Koi role nahi"
+      ],
+      "answer": "Dono A aur B"
+    },
+    {
+      "question": "Local SEO ke liye sabse important kya hai?",
+      "options": [
+        "Google My Business profile",
+        "YouTube channel",
+        "Facebook page",
+        "Twitter account"
+      ],
+      "answer": "Google My Business profile"
+    },
+    {
+      "question": "Technical SEO mein kya include hota hai?",
+      "options": [
+        "Sirf content writing",
+        "Website speed aur crawlability",
+        "Social media posting",
+        "Email marketing"
+      ],
+      "answer": "Website speed aur crawlability"
+    },
+    {
+      "question": "Website speed improve karne ka tareeka kya hai?",
+      "options": [
+        "Images compress karna",
+        "Lazy loading enable karna",
+        "CDN use karna",
+        "Sabhi options correct"
+      ],
+      "answer": "Sabhi options correct"
+    },
+    {
+      "question": "Robots.txt file ka kya kaam hai?",
+      "options": [
+        "Google ko batana kya crawl karna hai",
+        "Backlinks count karna",
+        "Social shares track karna",
+        "Email subscribers count karna"
+      ],
+      "answer": "Google ko batana kya crawl karna hai"
+    },
+    {
+      "question": "SSL certificate kya provide karta hai?",
+      "options": [
+        "HTTPS security",
+        "Faster loading speed",
+        "More backlinks",
+        "Better social shares"
+      ],
+      "answer": "HTTPS security"
+    },
+    {
+      "question": "Structured data kiske liye use hota hai?",
+      "options": [
+        "Rich results dikhane ke liye",
+        "Page rank badhane ke liye",
+        "Social media engagement ke liye",
+        "Email open rates badhane ke liye"
+      ],
+      "answer": "Rich results dikhane ke liye"
+    },
+    {
+      "question": "XML sitemap ka kya purpose hai?",
+      "options": [
+        "Google ko saari pages dikhane mein madad karna",
+        "Users ke liye navigation easy banana",
+        "Backlinks track karna",
+        "Social media integration"
+      ],
+      "answer": "Google ko saari pages dikhane mein madad karna"
+    },
+    {
+      "question": "Kaun sa tool free keyword research ke liye use hota hai?",
+      "options": [
+        "Google Keyword Planner",
+        "Ahrefs",
+        "SEMrush",
+        "Moz Pro"
+      ],
+      "answer": "Google Keyword Planner"
+    },
+    {
+      "question": "Ubersuggest tool kisne banaya hai?",
+      "options": [
+        "Google",
+        "Neil Patel",
+        "Brian Dean",
+        "Rand Fishkin"
+      ],
+      "answer": "Neil Patel"
+    },
+    {
+      "question": "Answer The Public tool ka use kya hai?",
+      "options": [
+        "People ke search queries analyze karne ke liye",
+        "Backlinks check karne ke liye",
+        "Website speed test karne ke liye",
+        "Social media scheduling ke liye"
+      ],
+      "answer": "People ke search queries analyze karne ke liye"
+    },
+    {
+      "question": "SEO Minion kya hai?",
+      "options": [
+        "Chrome extension for SEO analysis",
+        "Keyword research tool",
+        "Social media tool",
+        "Email marketing software"
+      ],
+      "answer": "Chrome extension for SEO analysis"
+    },
+    {
+      "question": "Grammarly ka SEO mein kya use hai?",
+      "options": [
+        "Content ko error-free banane mein",
+        "Backlinks track karne mein",
+        "Keyword research mein",
+        "Social media posts schedule karne mein"
+      ],
+      "answer": "Content ko error-free banane mein"
+    },
+    {
+      "question": "Google Trends ka use kya hai?",
+      "options": [
+        "Trending topics dhoondhne ke liye",
+        "Website errors check karne ke liye",
+        "Backlinks analyze karne ke liye",
+        "Social media engagement measure karne ke liye"
+      ],
+      "answer": "Trending topics dhoondhne ke liye"
+    },
+    {
+      "question": "Kaun sa platform infographics share karne ke liye best hai?",
+      "options": [
+        "Pinterest",
+        "Twitter",
+        "LinkedIn",
+        "Sabhi mein"
+      ],
+      "answer": "Sabhi mein"
+    },
+    {
+      "question": "Video SEO ke liye kya important hai?",
+      "options": [
+        "Description mein keywords daalna",
+        "Transcript provide karna",
+        "Thumbnail optimize karna",
+        "Sabhi options correct"
+      ],
+      "answer": "Sabhi options correct"
+    },
+    {
+      "question": "NAP consistency ka matlab kya hai?",
+      "options": [
+        "Name, Address, Phone same hona",
+        "Navigation, Analytics, Performance",
+        "New, Advanced, Professional",
+        "Kuch bhi nahi"
+      ],
+      "answer": "Name, Address, Phone same hona"
+    },
+    {
+      "question": "Google My Business mein kya important hai?",
+      "options": [
+        "Complete profile information",
+        "Genuine customer reviews",
+        "High-quality photos",
+        "Sabhi options correct"
+      ],
+      "answer": "Sabhi options correct"
+    },
+    {
+      "question": "Competitor backlinks analyze karne ke liye kaun sa tool best hai?",
+      "options": [
+        "Ahrefs",
+        "Google Analytics",
+        "Facebook Insights",
+        "Instagram Analytics"
+      ],
+      "answer": "Ahrefs"
+    },
+    {
+      "question": "Broken link building technique mein kya karte hain?",
+      "options": [
+        "Competitor ke broken links ko replace karte hain",
+        "Apni website ke broken links fix karte hain",
+        "Dono A aur B",
+        "Kuch nahi karte"
+      ],
+      "answer": "Dono A aur B"
+    },
+    {
+      "question": "Press releases kis platform pe submit kiye ja sakte hain?",
+      "options": [
+        "PRLog",
+        "BusinessWire",
+        "Dono",
+        "Koi bhi nahi"
+      ],
+      "answer": "Dono"
+    },
+    {
+      "question": "Social signals SEO mein kya role khelte hain?",
+      "options": [
+        "Indirect ranking factor",
+        "Direct ranking factor",
+        "Koi role nahi",
+        "Sirf paid ads ke liye important"
+      ],
+      "answer": "Indirect ranking factor"
+    },
+    {
+      "question": "Kaun sa factor page speed ko affect nahi karta?",
+      "options": [
+        "Uncompressed images",
+        "Excessive JavaScript",
+        "Mobile responsive design",
+        "Social media shares"
+      ],
+      "answer": "Social media shares"
+    },
+    {
+      "question": "Lazy loading kya hota hai?",
+      "options": [
+        "Images aur videos ko scroll pe load karna",
+        "Content ko edit karna",
+        "Backlinks count karna",
+        "Social media posts schedule karna"
+      ],
+      "answer": "Images aur videos ko scroll pe load karna"
+    },
+    {
+      "question": "301 redirect ka use kab karna chahiye?",
+      "options": [
+        "URL change karne par",
+        "Duplicate content fix karne ke liye",
+        "Dono situations mein",
+        "Kabhi bhi nahi"
+      ],
+      "answer": "Dono situations mein"
+    },
+    {
+      "question": "Google Search Console mein kya data milta hai?",
+      "options": [
+        "Search queries aur CTR",
+        "Indexing errors",
+        "Mobile usability issues",
+        "Sabhi options correct"
+      ],
+      "answer": "Sabhi options correct"
+    },
+    {
+      "question": "Content update kyu karna chahiye?",
+      "options": [
+        "Google ko fresh content dikhane ke liye",
+        "Users ke liye relevant information provide karne ke liye",
+        "Dono A aur B",
+        "Koi reason nahi"
+      ],
+      "answer": "Dono A aur B"
+    },
+    {
+      "question": "FAQ schema markup ka fayda kya hai?",
+      "options": [
+        "SERP mein rich results dikhane ke liye",
+        "Voice search optimization ke liye",
+        "Dono A aur B",
+        "Koi fayda nahi"
+      ],
+      "answer": "Dono A aur B"
+    },
+    {
+      "question": "LSI keywords ka matlab kya hai?",
+      "options": [
+        "Latent Semantic Indexing keywords",
+        "Long Search Intent keywords",
+        "Linked Social Identity keywords",
+        "Kuch bhi nahi"
+      ],
+      "answer": "Latent Semantic Indexing keywords"
+    },
+    {
+      "question": "Voice search optimization ke liye kya important hai?",
+      "options": [
+        "Natural language content",
+        "FAQ sections",
+        "Local SEO",
+        "Sabhi options correct"
+      ],
+      "answer": "Sabhi options correct"
+    },
+    {
+      "question": "E-A-T ka matlab kya hai?",
+      "options": [
+        "Expertise, Authoritativeness, Trustworthiness",
+        "Engagement, Analytics, Traffic",
+        "Email, Ads, Targeting",
+        "Kuch bhi nahi"
+      ],
+      "answer": "Expertise, Authoritativeness, Trustworthiness"
+    },
+    {
+      "question": "Google ka mobile-first indexing kya hai?",
+      "options": [
+        "Mobile version ko priority deta hai",
+        "Desktop version ko priority deta hai",
+        "Sirf mobile traffic count karta hai",
+        "Kuch bhi nahi"
+      ],
+      "answer": "Mobile version ko priority deta hai"
+    },
+    {
+      "question": "Page experience signal mein kya include hota hai?",
+      "options": [
+        "Core Web Vitals",
+        "Mobile-friendliness",
+        "HTTPS security",
+        "Sabhi options correct"
+      ],
+      "answer": "Sabhi options correct"
+    },
+    {
+      "question": "Blog post ka ideal structure kaisa hona chahiye?",
+      "options": [
+        "Introduction, Body, Conclusion",
+        "Only long paragraphs",
+        "Only images with captions",
+        "No specific structure needed"
+      ],
+      "answer": "Introduction, Body, Conclusion"
+    },
+    {
+      "question": "Kaun sa factor bounce rate ko affect karta hai?",
+      "options": [
+        "Poor content quality",
+        "Slow loading speed",
+        "Irrelevant traffic",
+        "Sabhi options correct"
+      ],
+      "answer": "Sabhi options correct"
+    },
+    {
+      "question": "SERP position improve karne ke liye kya karna chahiye?",
+      "options": [
+        "Content quality improve karna",
+        "Backlinks build karna",
+        "Technical SEO fix karna",
+        "Sabhi options correct"
+      ],
+      "answer": "Sabhi options correct"
+    },
+    {
+      "question": "Google algorithm updates ka kya impact hota hai?",
+      "options": [
+        "Rankings change ho sakte hain",
+        "Traffic fluctuate ho sakta hai",
+        "Dono A aur B",
+        "Koi impact nahi hota"
+      ],
+      "answer": "Dono A aur B"
+    },
+    {
+      "question": "Featured snippet pane mein aane ke liye kya karna chahiye?",
+      "options": [
+        "Clear, concise answers provide karna",
+        "Proper heading structure use karna",
+        "Content ko well-formatted rakna",
+        "Sabhi options correct"
+      ],
+      "answer": "Sabhi options correct"
+    },
+    {
+      "question": "YouTube video SEO ke liye kya important hai?",
+      "options": [
+        "Keyword-rich title",
+        "Detailed description",
+        "Tags aur categories",
+        "Sabhi options correct"
+      ],
+      "answer": "Sabhi options correct"
+    },
+    {
+      "question": "Google Discover mein appear hone ke liye kya jaroori hai?",
+      "options": [
+        "High-quality images",
+        "Fresh, trending content",
+        "Mobile-optimized pages",
+        "Sabhi options correct"
+      ],
+      "answer": "Sabhi options correct"
+    },
+    {
+      "question": "SEO strategy mein long-tail keywords ka fayda kya hai?",
+      "options": [
+        "Less competition",
+        "Higher conversion rates",
+        "More specific user intent",
+        "Sabhi options correct"
+      ],
+      "answer": "Sabhi options correct"
+    },
+    {
+      "question": "Sitemap.xml file ka kya purpose hai?",
+      "options": [
+        "Google ko saari important pages dikhane mein madad karna",
+        "Users ke liye navigation easy banana",
+        "Backlinks track karna",
+        "Social media integration"
+      ],
+      "answer": "Google ko saari important pages dikhane mein madad karna"
+    },
+    {
+      "question": "Google My Business posts ka frequency kaisa hona chahiye?",
+      "options": [
+        "Regularly (weekly/monthly)",
+        "Kabhi bhi nahi",
+        "Sirf ek baar",
+        "Rozana multiple posts"
+      ],
+      "answer": "Regularly (weekly/monthly)"
+    },
+    {
+      "question": "SEO-friendly URL kis tarah ka hona chahiye?",
+      "options": [
+        "Short aur descriptive",
+        "Numbers aur symbols se bhara hua",
+        "Random characters se bana hua",
+        "Koi farak nahi padta"
+      ],
+      "answer": "Short aur descriptive"
+    },
+    {
+      "question": "Local SEO ke liye kaun sa factor important nahi hai?",
+      "options": [
+        "International backlinks",
+        "Google My Business optimization",
+        "Local citations",
+        "Customer reviews"
+      ],
+      "answer": "International backlinks"
+    },
+    {
+      "question": "Page title aur H1 tag mein kya relation hona chahiye?",
+      "options": [
+        "Similar but not identical",
+        "Bilkul same",
+        "Bilkul alag",
+        "Koi relation nahi hona chahiye"
+      ],
+      "answer": "Similar but not identical"
+    },
+    {
+      "question": "Content marketing aur SEO ka kya sambandh hai?",
+      "options": [
+        "Quality content SEO ko support karta hai",
+        "Dono alag-alag strategies hain",
+        "SEO content marketing se unrelated hai",
+        "Koi sambandh nahi hai"
+      ],
+      "answer": "Quality content SEO ko support karta hai"
+    },
+    {
+      "question": "Domain Authority (DA) ka matlab kya hai?",
+      "options": [
+        "Website ki overall strength aur credibility",
+        "Daily active users",
+        "Domain registration period",
+        "Kuch bhi nahi"
+      ],
+      "answer": "Website ki overall strength aur credibility"
+    },
+    {
+      "question": "Page Authority (PA) kis cheez ko measure karta hai?",
+      "options": [
+        "Individual page ki strength",
+        "Website ke total traffic ko",
+        "Social media shares ko",
+        "Email subscribers ko"
+      ],
+      "answer": "Individual page ki strength"
+    },
+    {
+      "question": "Nofollow link ka kya matlab hai?",
+      "options": [
+        "Google ko batata hai ki link ko follow nahi karna",
+        "Link ko priority deni chahiye",
+        "Link broken hai",
+        "Kuch bhi nahi"
+      ],
+      "answer": "Google ko batata hai ki link ko follow nahi karna"
+    },
+    {
+      "question": "Dofollow link ka kya fayda hai?",
+      "options": [
+        "SEO value pass karta hai",
+        "No SEO value",
+        "Only for social media",
+        "Kuch bhi nahi"
+      ],
+      "answer": "SEO value pass karta hai"
+    },
+    {
+      "question": "Google Search Console aur Google Analytics mein kya antar hai?",
+      "options": [
+        "GSC SEO data dikhata hai, GA traffic data",
+        "Dono same hain",
+        "GA sirf paid traffic dikhata hai",
+        "Koi antar nahi"
+      ],
+      "answer": "GSC SEO data dikhata hai, GA traffic data"
+    },
+    {
+      "question": "Bounce rate kam karne ke liye kya karna chahiye?",
+      "options": [
+        "Content quality improve karna",
+        "Internal linking badhana",
+        "Page speed optimize karna",
+        "Sabhi options correct"
+      ],
+      "answer": "Sabhi options correct"
+    },
+    {
+      "question": "SERP features mein kya include hota hai?",
+      "options": [
+        "Featured snippets",
+        "People Also Ask",
+        "Local packs",
+        "Sabhi options correct"
+      ],
+      "answer": "Sabhi options correct"
+    },
+    {
+      "question": "Google Ads (PPC) aur organic SEO mein kya antar hai?",
+      "options": [
+        "Ads paid hain, SEO organic",
+        "Dono same hain",
+        "SEO sirf images ke liye hai",
+        "Koi antar nahi"
+      ],
+      "answer": "Ads paid hain, SEO organic"
+    },
+    {
+      "question": "SEO campaign ka success kaise measure karein?",
+      "options": [
+        "Organic traffic growth",
+        "Keyword rankings",
+        "Conversions",
+        "Sabhi options correct"
+      ],
+      "answer": "Sabhi options correct"
+    },
+    {
+      "question": "Google algorithm updates kaise track karein?",
+      "options": [
+        "Official Google blogs",
+        "SEO news websites",
+        "Both A and B",
+        "Cannot be tracked"
+      ],
+      "answer": "Both A and B"
+    },
+    {
+      "question": "Long-form content ka SEO mein kya fayda hai?",
+      "options": [
+        "More comprehensive coverage of topics",
+        "Higher chance of ranking for multiple keywords",
+        "Better user engagement",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "Pillar content kya hota hai?",
+      "options": [
+        "Comprehensive guide on a broad topic",
+        "Short social media post",
+        "Paid advertisement",
+        "Email newsletter"
+      ],
+      "answer": "Comprehensive guide on a broad topic"
+    },
+    {
+      "question": "Cluster content strategy mein kya hota hai?",
+      "options": [
+        "Pillar page connected to related subtopic pages",
+        "Random unrelated articles",
+        "Only video content",
+        "Social media posts only"
+      ],
+      "answer": "Pillar page connected to related subtopic pages"
+    },
+    {
+      "question": "Google's helpful content update ka focus kya hai?",
+      "options": [
+        "People-first content",
+        "SEO-focused content",
+        "Short-form content",
+        "AI-generated content"
+      ],
+      "answer": "People-first content"
+    },
+    {
+      "question": "AI content tools ka SEO mein kya role hai?",
+      "options": [
+        "Ideation aur first drafts ke liye helpful",
+        "Human editing zaroori hai",
+        "Google AI content ko penalize kar sakta hai",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "Voice search ke liye content kaise optimize karein?",
+      "options": [
+        "Conversational tone mein likhein",
+        "FAQ format use karein",
+        "Local language focus karein",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "Video content ka SEO mein kya role hai?",
+      "options": [
+        "Dwell time badhata hai",
+        "Engagement increase karta hai",
+        "Rich results mein appear ho sakta hai",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "Podcast content ka SEO mein kya use hai?",
+      "options": [
+        "Transcripts can be indexed by search engines",
+        "Audio files directly rank in Google",
+        "No SEO value",
+        "Only for social media"
+      ],
+      "answer": "Transcripts can be indexed by search engines"
+    },
+    {
+      "question": "Google Business Profile posts ka maximum character limit kya hai?",
+      "options": [
+        "300 characters",
+        "500 characters",
+        "1500 characters",
+        "No limit"
+      ],
+      "answer": "1500 characters"
+    },
+    {
+      "question": "Kaun sa factor Core Web Vitals ko negatively affect karta hai?",
+      "options": [
+        "Large unoptimized images",
+        "Render-blocking JavaScript",
+        "Excessive CSS",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "Google Search Console ka 'URL Inspection' tool kya karta hai?",
+      "options": [
+        "Check if URL is indexed",
+        "Identify indexing issues",
+        "Test live URL",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "SEO ke liye ideal image file name kaisa hona chahiye?",
+      "options": [
+        "Descriptive with keywords",
+        "Random numbers",
+        "Special characters",
+        "No importance"
+      ],
+      "answer": "Descriptive with keywords"
+    },
+    {
+      "question": "Google ke 'People Also Ask' section mein aane ke liye kya karna chahiye?",
+      "options": [
+        "Clear question-answer format use karna",
+        "Only long paragraphs",
+        "No headings",
+        "Only images"
+      ],
+      "answer": "Clear question-answer format use karna"
+    },
+    {
+      "question": "SEO audit karne ka sabse important step kya hai?",
+      "options": [
+        "Technical issues check karna",
+        "Content quality analyze karna",
+        "Backlink profile review karna",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    }
+  ]
+}

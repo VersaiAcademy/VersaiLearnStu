@@ -1,1 +1,3 @@
-ALTER TABLE `results` ADD `subject` VARCHAR(255) NOT NULL AFTER `correct_answers`;
+ALTER TABLE `results`
+ADD COLUMN `status` VARCHAR(50) NOT NULL DEFAULT 'pending' AFTER `subject`,
+ADD COLUMN `submission_date` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP AFTER `status`;

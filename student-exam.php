@@ -143,10 +143,35 @@ $id = isset($_SESSION['user_id']) ? $_SESSION['user_id'] : '';
                 </div>
             </div>
         </div>
+
+        <!-- Result Modal -->
+        <div class="modal" id="result-modal">
+            <div class="modal-content glass-card">
+                <div class="modal-header">
+                    <h3 class="modal-title">Exam Result</h3>
+                </div>
+                <div class="modal-body">
+                    <p>Candidate: <strong id="student-name-result"></strong></p>
+                    <p>Total Questions: <strong id="total-questions-result">0</strong></p>
+                    <p>Correct Answers: <strong id="correct-answers-result">0</strong></p>
+                    <p>Wrong Answers: <strong id="wrong-answers-result">0</strong></p>
+                </div>
+                <div class="modal-footer">
+                    <button class="nav-btn btn-primary" id="close-result-modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
+    const userId = <?php echo json_encode($id); ?>;
+    if (!userId) {
+        alert("You must be logged in to take an exam.");
+        window.location.href = 'login.html';
+        return;
+    }
+
     const urlParams = new URLSearchParams(window.location.search);
     const subject = urlParams.get("subject");
 
@@ -173,7 +198,24 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch(jsonFile)
         .then(res => res.json())
         .then(data => {
-            questions = data.RS_CIT_Questions || data; // Handle both formats
+            // Handle different JSON structures
+            if (data.RS_CIT_Questions) {
+                questions = data.RS_CIT_Questions;
+            } else if (data.seo_questions) {
+                questions = data.seo_questions;
+            } else if (Array.isArray(data)) {
+                questions = data;
+            } else {
+                // Fallback for other nested structures: find the first array
+                const key = Object.keys(data).find(k => Array.isArray(data[k]));
+                if (key) {
+                    questions = data[key];
+                } else {
+                    console.error("Could not find an array of questions in the JSON file.");
+                    alert("Error: The question format is not supported.");
+                    return;
+                }
+            }
             answers = Array(questions.length).fill(null);
             document.getElementById("exam-name").textContent = subject + " Certification";
             renderExam();
@@ -274,11 +316,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function submitExam() {
         saveAnswer();
-        const correctAnswers = answers.filter((ans, i) => ans === questions[i].answer).length;
+        const correctAnswers = answers.filter((ans, i) => {
+            // Trim both the user's answer and the correct answer to remove any leading/trailing whitespace.
+            const userAnswer = ans ? ans.trim() : null;
+            const correctAnswer = questions[i].answer ? questions[i].answer.trim() : null;
+            return userAnswer === correctAnswer;
+        }).length;
         const totalQuestions = questions.length;
 
         const resultData = {
-            user_id: <?php echo json_encode($id); ?>,
             score: correctAnswers,
             total_questions: totalQuestions,
             correct_answers: correctAnswers,
@@ -293,7 +339,8 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(response => response.json())
         .then(res => {
             if (res.success) {
-                alert("✅ Exam Submitted & Result Saved!");
+                // Instead of showing the result modal, show a pending message and redirect.
+                alert("✅ Exam Submitted! Your result is pending approval.");
                 window.location.href = "subjects.html";
             } else {
                 alert("❌ Error: " + res.error);
@@ -341,6 +388,10 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     document.getElementById("confirm-submit").onclick = submitExam;
+
+    document.getElementById('close-result-modal').onclick = () => {
+        window.location.href = "subjects.html";
+    };
 });
 </script>
 

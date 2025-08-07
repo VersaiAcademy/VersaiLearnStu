@@ -255,6 +255,88 @@ body {
     }
 }
 
+/* Professional Result Modal Styles */
+#result-modal .modal-content {
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.9), rgba(240, 240, 240, 0.9));
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(200, 200, 200, 0.5);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+    color: #333;
+    animation: fadeIn 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+
+#result-modal .modal-header {
+    background-color: rgba(74, 3, 12, 0.8);
+    color: white;
+    border-bottom: none;
+    padding: 25px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    text-align: center;
+}
+
+#result-modal .modal-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+#result-modal .modal-body {
+    padding: 30px;
+    font-size: 1.1rem;
+}
+
+#result-modal .modal-body p {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+}
+
+#result-modal .modal-body p:last-child {
+    border-bottom: none;
+}
+
+#result-modal .modal-body strong {
+    font-weight: 600;
+    color: #555;
+}
+
+#result-modal #result-status {
+    font-weight: 700;
+    padding: 5px 12px;
+    border-radius: 20px;
+    color: white;
+}
+
+#result-modal #result-status.pass {
+    background-color: var(--success);
+}
+
+#result-modal #result-status.fail {
+    background-color: var(--danger);
+}
+
+#result-modal .modal-footer {
+    background-color: rgba(245, 245, 245, 0.9);
+    border-top: 1px solid rgba(204, 204, 204, 0.5);
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+#result-modal #close-result-modal {
+    background-color: var(--primary);
+    font-size: 1.1rem;
+    padding: 12px 30px;
+    box-shadow: 0 4px 15px rgba(74, 3, 12, 0.2);
+}
+#result-modal #close-result-modal:hover {
+    background-color: rgb(103, 18, 18);
+    transform: translateY(-2px);
+}
+
 /* New Admin Dashboard Layout */
 .admin-layout {
     display: flex;
