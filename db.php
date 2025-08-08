@@ -1,9 +1,9 @@
 <?php
 // Database connection settings
 $host = "localhost";
-$username = "root";
-$password = "";
-$database = "proexam"; // Make sure there is NO space or newline here
+$username = "u973762102_versaistudent";
+$password = "Examversai@123";
+$database = "u973762102_examversai"; // Make sure there is NO space or newline here
 
 // Create connection
 $conn = new mysqli($host, $username, $password, $database);

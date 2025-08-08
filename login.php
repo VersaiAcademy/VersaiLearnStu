@@ -1,6 +1,6 @@
 <?php
 session_start();
-$conn = new mysqli("localhost", "root", "", "proexam");
+$conn = new mysqli("localhost", "u973762102_versaistudent", "Examversai@123", "u973762102_examversai");
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $email = $_POST['email'];
